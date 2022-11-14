@@ -10,6 +10,13 @@ import scipy.stats as stats
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__)) + "/../"
 
 def processing_behavior_param_labels(subject_id):
+    '''
+    This function processes the behavioral parameter labels for a given subject
+    Parameters:
+        subject_id: the id of the subject
+    Returns:
+        None
+    '''
     label_file = ROOT_DIR + "data/labels/DS_" + str(subject_id) + "/combined_Behavioral Parameters_corr.csv"
     df = pd.read_csv(label_file)
     
