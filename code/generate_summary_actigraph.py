@@ -37,7 +37,9 @@ class ActigraphSummary:
             file_df = pd.read_csv(f"{self.path}/data/filtered/{file}")
             # rename the axis to be timestamp, x, y, z
             # file_df.rename
-            print(file_df.head(5))
+            # print(file_df.head(5))
+            #print rows 100 to 110
+            print(file_df.iloc[80000:80010])
             # print the first 5 timestamp
             print(list(file_df['timestamp'].head(5)))
 
@@ -313,10 +315,11 @@ accelSummary = ActigraphSummary(ROOT_DIR)
 # accelSummary.get_file_name(10)
 # accelSummary.print_head_file(10)
 # accelSummary.test_low_pass_filter(10)
-for i in range(23, 33):
-    accelSummary.segment_and_add_features(i, is_dominant_hand=True)
-    accelSummary.segment_and_add_features(i, is_dominant_hand=False)
+# for i in range(23, 33):
+#     accelSummary.segment_and_add_features(i, is_dominant_hand=True)
+#     accelSummary.segment_and_add_features(i, is_dominant_hand=False)
 
-# accelSummary.print_head_file(10)
+accelSummary.print_head_file(23)
+
 
 # accelSummary.segment_and_add_features(10)

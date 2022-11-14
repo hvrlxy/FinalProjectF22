@@ -103,7 +103,7 @@ def sync_physical_activity_labels(subject_id, is_dominant_hand = True):
 # print(high_level_behavioral_pattern_df.head())
 # print(posture_labels)
 # print(posture_labels_df.head())
-for i in range(23, 33):
-    sync_physical_activity_labels(i)
+# for i in range(23, 33):
+#     sync_physical_activity_labels(i)
 
-# sync_physical_activity_labels(10, is_dominant_hand = True)
+# sync_physical_activity_labels(23, is_dominant_hand = True)
