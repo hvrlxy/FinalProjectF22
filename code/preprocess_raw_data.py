@@ -32,6 +32,9 @@ def get_file_name(subject_id: int):
 def convert_string_to_datetime(start_time: str, start_date: str):
     '''
     Converts the start time and start date to a datetime object.
+    :param start_time: the start time in string format
+    :param start_date: the start date in string format
+    :return: the start time in datetime format
     '''
     # print(start_time.decode("utf-8"), start_date.decode("utf-8"))
     # from start_time and start_date, get the start time in date time format
