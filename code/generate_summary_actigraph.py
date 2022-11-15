@@ -23,7 +23,7 @@ class ActigraphSummary:
         This function takes in the subject's id and return the list of timestamp-synced actigraph files for the subject
         :params: subject_id: id of the subject
         '''
-        folder_path =  self.path + "data/filtered/"
+        folder_path =  self.path + "data/PAAWS/filtered/"
         files_lst = os.listdir(folder_path)
         #find if any files named DS_subject_id is in the folder
         subject_files = [file for file in files_lst if f'DS_{subject_id}' in file]
@@ -39,7 +39,7 @@ class ActigraphSummary:
         subject_files = self.get_file_name(subject_id=subject_id)
         for file in subject_files:
             print("Printing out the first 5 lines for file: ", file)
-            file_df = pd.read_csv(f"{self.path}/data/filtered/{file}")
+            file_df = pd.read_csv(f"{self.path}/data/PAAWS/filtered/{file}")
             # rename the axis to be timestamp, x, y, z
             # file_df.rename
             # print(file_df.head(5))
@@ -63,7 +63,7 @@ class ActigraphSummary:
         actigraphy_df['z'] = self.moving_average_filtered(actigraphy_df['z'])
 
         #save the filtered data to a csv file
-        # actigraphy_df.to_csv(f"{self.path}/data/filtered/low_pass_filtered/filtered_{subject_id}.csv", index=False)
+        # actigraphy_df.to_csv(f"{self.path}/data/PAAWS/filtered/low_pass_filtered/filtered_{subject_id}.csv", index=False)
         return actigraphy_df
 
     def segment_and_add_features(self, subject_id, is_dominant_hand=True):
@@ -79,7 +79,7 @@ class ActigraphSummary:
         if not is_dominant_hand:
             file = subject_files[1]
         print(f"Applying low pass filter to actigraph data of subject {subject_id} with dominant hand = {is_dominant_hand}: ")
-        actigraphy_df = pd.read_csv(f"{self.path}/data/filtered/{file}")
+        actigraphy_df = pd.read_csv(f"{self.path}/data/PAAWS/filtered/{file}")
         # rename the axis to be timestamp, x, y, z
         actigraphy_df.rename(columns={'timestamp': 'timestamp', 'Accelerometer X': 'x', 'Accelerometer Y': 'y', 'Accelerometer Z': 'z'}, inplace=True)
         actigraphy_df = self.apply_filter_to_all_axis(subject_id, actigraphy_df)
@@ -226,9 +226,9 @@ class ActigraphSummary:
         # new_df['z_fft_kurtosis'] = z_series.groupby(np.arange(len(z_series.index)) // 800).apply(self.get_freq_domain_features).apply(pd.Series).kurtosis(axis=1)
         #  save the new dataframe to csv
         if is_dominant_hand:
-            new_df.to_csv(f'{self.path}/data/actigraphy_features/DS_{subject_id}_actigraphy_features_dominant.csv', index=False)
+            new_df.to_csv(f'{self.path}/data/PAAWS/actigraphy_features/DS_{subject_id}_actigraphy_features_dominant.csv', index=False)
         else:
-            new_df.to_csv(f'{self.path}/data/actigraphy_features/DS_{subject_id}_actigraphy_features_non_dominant.csv', index=False)
+            new_df.to_csv(f'{self.path}/data/PAAWS/actigraphy_features/DS_{subject_id}_actigraphy_features_non_dominant.csv', index=False)
         return new_df
 
     def low_pass_filter(self, data, cutoff = 3, fs = 20, order=5):
@@ -318,7 +318,7 @@ class ActigraphSummary:
         :params: subject_id: the id of the subject
         '''
         subject_file = self.get_file_name(subject_id=subject_id)[0]
-        file_df = pd.read_csv(f"{self.path}/data/filtered/{subject_file}")
+        file_df = pd.read_csv(f"{self.path}/data/PAAWS/filtered/{subject_file}")
         # print out the columns
         # print(file_df.columns)
         # rename the axis to be timestamp, x, y, z
@@ -341,5 +341,5 @@ class ActigraphSummary:
 
 accelSummary = ActigraphSummary(ROOT_DIR)
 # accelSummary.segment_and_add_features(10)
-for i in range(11, 33):
+for i in range(20, 33):
     accelSummary.segment_and_add_features(i)

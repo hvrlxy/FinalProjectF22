@@ -25,7 +25,7 @@ def get_filtered_behavior_pattern_labels(subject_id):
     This function takes the subject_id and return the dataframe for the behavioral pattern labels
     '''
     # read in the behavioral pattern labels
-    behavior_pattern_labels_df = pd.read_csv(f"{ROOT_DIR}/data/filtered_labels/BehavioralPattern/DS_{subject_id}_combined_BehavioralParameters_corr.csv")
+    behavior_pattern_labels_df = pd.read_csv(f"{ROOT_DIR}/data/PAAWS/filtered_labels/BehavioralPattern/DS_{subject_id}_combined_BehavioralParameters_corr.csv")
     # get all the columns that are not timestamp
     behavior_pattern_labels = [col for col in behavior_pattern_labels_df.columns if col != "START_TIME" and col != "STOP_TIME"]
     return behavior_pattern_labels, behavior_pattern_labels_df
@@ -35,7 +35,7 @@ def get_filtered_physical_activity_labels(subject_id):
     This function takes the subject_id and return the dataframe for the activity labels
     '''
     # read in the activity labels
-    activity_labels_df = pd.read_csv(f"{ROOT_DIR}/data/filtered_labels/PhysicalActivity/DS_{subject_id}_combined_PhysicalActivity.csv")
+    activity_labels_df = pd.read_csv(f"{ROOT_DIR}/data/PAAWS/filtered_labels/PhysicalActivity/DS_{subject_id}_combined_PhysicalActivity.csv")
     # get all the columns that are not timestamp
     activity_labels = [col for col in activity_labels_df.columns if col != "START_TIME" and col != "STOP_TIME"]
     return activity_labels, activity_labels_df
@@ -45,7 +45,7 @@ def get_filtered_high_level_behavioral_pattern(subject_id):
     This function takes the subject_id and return the dataframe for the high level behavioral pattern labels
     '''
     # read in the high level behavioral pattern labels
-    high_level_behavioral_pattern_df = pd.read_csv(f"{ROOT_DIR}/data/filtered_labels/HighLevelBehavioralPattern/DS_{subject_id}_combined_HighLevelBehavioralPatterns.csv")
+    high_level_behavioral_pattern_df = pd.read_csv(f"{ROOT_DIR}/data/PAAWS/filtered_labels/HighLevelBehavioralPattern/DS_{subject_id}_combined_HighLevelBehavioralPatterns.csv")
     # get all the columns that are not timestamp
     high_level_behavioral_pattern = [col for col in high_level_behavioral_pattern_df.columns if col != "START_TIME" and col != "STOP_TIME"]
     return high_level_behavioral_pattern, high_level_behavioral_pattern_df
@@ -55,7 +55,7 @@ def get_filtered_posture_labels(subject_id):
     This function takes the subject_id and return the dataframe for the posture labels
     '''
     # read in the posture labels
-    posture_labels_df = pd.read_csv(f"{ROOT_DIR}/data/filtered_labels/Posture/DS_{subject_id}_combined_Posture.csv")
+    posture_labels_df = pd.read_csv(f"{ROOT_DIR}/data/PAAWS/filtered_labels/Posture/DS_{subject_id}_combined_Posture.csv")
     # get all the columns that are not timestamp
     posture_labels = [col for col in posture_labels_df.columns if col != "START_TIME" and col != "STOP_TIME"]
     return posture_labels, posture_labels_df
@@ -76,10 +76,10 @@ def sync_physical_activity_labels(subject_id, is_dominant_hand = True):
     activity_labels_df["STOP_TIME"] = activity_labels_df["STOP_TIME"].apply(lambda x: x.timestamp())
     if is_dominant_hand:
         # get the df of actigraph data from the dominant wrist
-        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/actigraphy_features/{subject_files[0]}")
+        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/PAAWS/actigraphy_features/{subject_files[0]}")
     else:
         # get the df of actigraph data from the non-dominant wrist
-        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/actigraphy_features/{subject_files[1]}")
+        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/PAAWS/actigraphy_features/{subject_files[1]}")
     # create one column for each of the activity labels in the activity_labels_df to the actigraph_df
     for label in activity_labels:
         actigraph_df[label] = 0
@@ -92,10 +92,10 @@ def sync_physical_activity_labels(subject_id, is_dominant_hand = True):
         actigraph_df.loc[(actigraph_df["timestamp"] >= start_time) & (actigraph_df["timestamp"] <= end_time), activity_labels] = row[activity_labels].values
     if is_dominant_hand:
             # save the actigraph_df to a csv file
-        actigraph_df.to_csv(f"{ROOT_DIR}/data/labeled_actigraph/PhysicalActivity/DS_{subject_id}_combined_PhysicalActivity_dominant_synced.csv", index=False)
+        actigraph_df.to_csv(f"{ROOT_DIR}/data/PAAWS/labeled_actigraph/PhysicalActivity/DS_{subject_id}_combined_PhysicalActivity_dominant_synced.csv", index=False)
     else:
         # save the actigraph_df to a csv file
-        actigraph_df.to_csv(f"{ROOT_DIR}/data/labeled_actigraph/PhysicalActivity/DS_{subject_id}_combined_PhysicalActivity_non_dominant_synced.csv", index=False)
+        actigraph_df.to_csv(f"{ROOT_DIR}/data/PAAWS/labeled_actigraph/PhysicalActivity/DS_{subject_id}_combined_PhysicalActivity_non_dominant_synced.csv", index=False)
 
 def sync_behavioral_pattern_labels(subject_id, is_dominant_hand = True):
     # get the list of actigraph files for the subject
@@ -113,10 +113,10 @@ def sync_behavioral_pattern_labels(subject_id, is_dominant_hand = True):
     behavior_pattern_labels_df["STOP_TIME"] = behavior_pattern_labels_df["STOP_TIME"].apply(lambda x: x.timestamp())
     if is_dominant_hand:
         # get the df of actigraph data from the dominant wrist
-        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/actigraphy_features/{subject_files[0]}")
+        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/PAAWS/actigraphy_features/{subject_files[0]}")
     else:
         # get the df of actigraph data from the non-dominant wrist
-        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/actigraphy_features/{subject_files[1]}")
+        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/PAAWS/actigraphy_features/{subject_files[1]}")
     # create one column for each of the activity labels in the activity_labels_df to the actigraph_df
     for label in behavior_pattern_labels:
         actigraph_df[label] = 0
@@ -129,10 +129,10 @@ def sync_behavioral_pattern_labels(subject_id, is_dominant_hand = True):
         actigraph_df.loc[(actigraph_df["timestamp"] >= start_time) & (actigraph_df["timestamp"] <= end_time), behavior_pattern_labels] = row[behavior_pattern_labels].values
     if is_dominant_hand:
             # save the actigraph_df to a csv file
-        actigraph_df.to_csv(f"{ROOT_DIR}/data/labeled_actigraph/BehavioralPattern/DS_{subject_id}_combined_BehavioralParameters_corr_dominant_synced.csv", index=False)
+        actigraph_df.to_csv(f"{ROOT_DIR}/data/PAAWS/labeled_actigraph/BehavioralPattern/DS_{subject_id}_combined_BehavioralParameters_corr_dominant_synced.csv", index=False)
     else:
         # save the actigraph_df to a csv file
-        actigraph_df.to_csv(f"{ROOT_DIR}/data/labeled_actigraph/BehavioralPattern/DS_{subject_id}_combined_BehavioralParameters_corr_non_dominant_synced.csv", index=False)
+        actigraph_df.to_csv(f"{ROOT_DIR}/data/PAAWS/labeled_actigraph/BehavioralPattern/DS_{subject_id}_combined_BehavioralParameters_corr_non_dominant_synced.csv", index=False)
     
 def sync_high_level_labels(subject_id, is_dominant_hand = True):
     # get the list of actigraph files for the subject
@@ -150,10 +150,10 @@ def sync_high_level_labels(subject_id, is_dominant_hand = True):
     high_level_labels_df["STOP_TIME"] = high_level_labels_df["STOP_TIME"].apply(lambda x: x.timestamp())
     if is_dominant_hand:
         # get the df of actigraph data from the dominant wrist
-        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/actigraphy_features/{subject_files[0]}")
+        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/PAAWS/actigraphy_features/{subject_files[0]}")
     else:
         # get the df of actigraph data from the non-dominant wrist
-        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/actigraphy_features/{subject_files[1]}")
+        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/PAAWS/actigraphy_features/{subject_files[1]}")
     # create one column for each of the activity labels in the activity_labels_df to the actigraph_df
     for label in high_level_labels:
         actigraph_df[label] = 0
@@ -166,10 +166,10 @@ def sync_high_level_labels(subject_id, is_dominant_hand = True):
         actigraph_df.loc[(actigraph_df["timestamp"] >= start_time) & (actigraph_df["timestamp"] <= end_time), high_level_labels] = row[high_level_labels].values
     if is_dominant_hand:
             # save the actigraph_df to a csv file
-        actigraph_df.to_csv(f"{ROOT_DIR}/data/labeled_actigraph/HighLevelBehavioralPattern/DS_{subject_id}_combined_HighLevel_dominant_synced.csv", index=False)
+        actigraph_df.to_csv(f"{ROOT_DIR}/data/PAAWS/labeled_actigraph/HighLevelBehavioralPattern/DS_{subject_id}_combined_HighLevel_dominant_synced.csv", index=False)
     else:
         # save the actigraph_df to a csv file
-        actigraph_df.to_csv(f"{ROOT_DIR}/data/labeled_actigraph/HighLevelBehavioralPattern/DS_{subject_id}_combined_HighLevel_non_dominant_synced.csv", index=False)
+        actigraph_df.to_csv(f"{ROOT_DIR}/data/PAAWS/labeled_actigraph/HighLevelBehavioralPattern/DS_{subject_id}_combined_HighLevel_non_dominant_synced.csv", index=False)
 
 def sync_posture_labels(subject_id, is_dominant_hand = True):
     # get the list of actigraph files for the subject
@@ -189,10 +189,10 @@ def sync_posture_labels(subject_id, is_dominant_hand = True):
     # print("Start time posture after: \n", list(posture_labels_df['START_TIME'])[:5])
     if is_dominant_hand:
         # get the df of actigraph data from the dominant wrist
-        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/actigraphy_features/{subject_files[0]}")
+        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/PAAWS/actigraphy_features/{subject_files[0]}")
     else:
         # get the df of actigraph data from the non-dominant wrist
-        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/actigraphy_features/{subject_files[1]}")
+        actigraph_df = pd.read_csv(f"{ROOT_DIR}/data/PAAWS/actigraphy_features/{subject_files[1]}")
     # create one column for each of the activity labels in the activity_labels_df to the actigraph_df
     for label in posture_labels:
         actigraph_df[label] = 0
@@ -205,12 +205,12 @@ def sync_posture_labels(subject_id, is_dominant_hand = True):
         actigraph_df.loc[(actigraph_df["timestamp"] >= start_time) & (actigraph_df["timestamp"] <= end_time), posture_labels] = row[posture_labels].values
     if is_dominant_hand:
             # save the actigraph_df to a csv file
-        actigraph_df.to_csv(f"{ROOT_DIR}/data/labeled_actigraph/Posture/DS_{subject_id}_combined_Posture_dominant_synced.csv", index=False)
+        actigraph_df.to_csv(f"{ROOT_DIR}/data/PAAWS/labeled_actigraph/Posture/DS_{subject_id}_combined_Posture_dominant_synced.csv", index=False)
     else:
         # save the actigraph_df to a csv file
-        actigraph_df.to_csv(f"{ROOT_DIR}/data/labeled_actigraph/Posture/DS_{subject_id}_combined_Posture_non_dominant_synced.csv", index=False)
+        actigraph_df.to_csv(f"{ROOT_DIR}/data/PAAWS/labeled_actigraph/Posture/DS_{subject_id}_combined_Posture_non_dominant_synced.csv", index=False)
 
-for i in range(15, 33):
+for i in range(15, 20):
     sync_physical_activity_labels(i, is_dominant_hand = True)
     sync_behavioral_pattern_labels(i, is_dominant_hand = True)
     sync_high_level_labels(i, is_dominant_hand = True)

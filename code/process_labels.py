@@ -17,7 +17,7 @@ def processing_behavior_param_labels(subject_id):
     Returns:
         None
     '''
-    label_file = ROOT_DIR + "data/labels/DS_" + str(subject_id) + "/combined_Behavioral Parameters_corr.csv"
+    label_file = ROOT_DIR + "data/PAAWS/raw_labels/DS_" + str(subject_id) + "/combined_Behavioral Parameters_corr.csv"
     df = pd.read_csv(label_file)
     
     #  only grab the START_TIME and END_TIME AND THE PREDICTED LABEL
@@ -32,12 +32,12 @@ def processing_behavior_param_labels(subject_id):
     # drop the prediction column
     df = df.drop(columns=['PREDICTION'])
     # save the new dataframe to a csv file
-    df.to_csv(ROOT_DIR + f"data/filtered_labels/BehavioralPattern/DS_{subject_id}_combined_BehavioralParameters_corr.csv", index=False)
+    df.to_csv(ROOT_DIR + f"data/PAAWS/filtered_labels/BehavioralPattern/DS_{subject_id}_combined_BehavioralParameters_corr.csv", index=False)
     # print out the first 5 rows
     # print(df.head())
 
 def processing_high_level_behavior_label(subject_id):
-    label_file = ROOT_DIR + "data/labels/DS_" + str(subject_id) + "/combined_HIGH LEVEL BEHAVIOR_corr.csv"
+    label_file = ROOT_DIR + "data/PAAWS/raw_labels/DS_" + str(subject_id) + "/combined_HIGH LEVEL BEHAVIOR_corr.csv"
     df = pd.read_csv(label_file)
     #  only grab the START_TIME and END_TIME AND THE PREDICTED LABEL
     df = df[['START_TIME', 'STOP_TIME', 'PREDICTION']]
@@ -51,12 +51,12 @@ def processing_high_level_behavior_label(subject_id):
     # drop the prediction column
     df = df.drop(columns=['PREDICTION'])
     # save the new dataframe to a csv file
-    df.to_csv(ROOT_DIR + f"data/filtered_labels/HighLevelBehavioralPattern/DS_{subject_id}_combined_HighLevelBehavioralPatterns.csv", index=False)
+    df.to_csv(ROOT_DIR + f"data/PAAWS/filtered_labels/HighLevelBehavioralPattern/DS_{subject_id}_combined_HighLevelBehavioralPatterns.csv", index=False)
     # print out the first 5 rows
     # print(df.head(5))
 
 def processing_physical_activity_label(subject_id):
-    label_file = ROOT_DIR + "data/labels/DS_" + str(subject_id) + "/combined_PA TYPE_corr.csv"
+    label_file = ROOT_DIR + "data/PAAWS/raw_labels/DS_" + str(subject_id) + "/combined_PA TYPE_corr.csv"
     df = pd.read_csv(label_file)
     #  only grab the START_TIME and END_TIME AND THE PREDICTED LABEL
     df = df[['START_TIME', 'STOP_TIME', 'PREDICTION']]
@@ -70,12 +70,12 @@ def processing_physical_activity_label(subject_id):
     # drop the prediction column
     df = df.drop(columns=['PREDICTION'])
     # save the new dataframe to a csv file
-    df.to_csv(ROOT_DIR + f"data/filtered_labels/PhysicalActivity/DS_{subject_id}_combined_PhysicalActivity.csv", index=False)
+    df.to_csv(ROOT_DIR + f"data/PAAWS/filtered_labels/PhysicalActivity/DS_{subject_id}_combined_PhysicalActivity.csv", index=False)
     # print out the first 5 rows
     # print(df.head(5))
 
 def processing_posture_label(subject_id):
-    label_file = ROOT_DIR + "data/labels/DS_" + str(subject_id) + "/combined_POSTURE_corr.csv"
+    label_file = ROOT_DIR + "data/PAAWS/raw_labels/DS_" + str(subject_id) + "/combined_POSTURE_corr.csv"
     df = pd.read_csv(label_file)
     #  only grab the START_TIME and END_TIME AND THE PREDICTED LABEL
     df = df[['START_TIME', 'STOP_TIME', 'PREDICTION']]
@@ -89,7 +89,7 @@ def processing_posture_label(subject_id):
     # drop the prediction column
     df = df.drop(columns=['PREDICTION'])
     # save the new dataframe to a csv file
-    df.to_csv(ROOT_DIR + f"data/filtered_labels/Posture/DS_{subject_id}_combined_Posture.csv", index=False)
+    df.to_csv(ROOT_DIR + f"data/PAAWS/filtered_labels/Posture/DS_{subject_id}_combined_Posture.csv", index=False)
     # print out the first 5 rows
     # print(df.head(5))
 

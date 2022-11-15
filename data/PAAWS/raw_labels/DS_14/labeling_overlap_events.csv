@@ -1,0 +1,11 @@
+START_TIME,STOP_TIME,PREDICTION,SOURCE,LABELSET
+2022-01-24 16:36:09.012,2022-01-24 16:38:15,Walking,Expert,PA TYPE
+2022-01-24 16:36:09.012,2022-01-24 16:38:15,In_Position_Upright,Expert,POSTURE
+2022-01-24 16:36:09.012,2022-01-24 16:38:15,In_Transit_Active,Expert,HIGH LEVEL BEHAVIOR
+2022-01-24 16:36:09.012,2022-01-24 16:38:15,Free_Living,Expert,Experimental situation
+2022-01-24 16:36:09.012,2022-01-24 16:38:15,Carrying_Bag_On_Shoulder/Back_Light/Located_Outdoors,Expert,Behavioral Parameters
+2022-01-24 16:42:45.000,2022-01-24 16:44:05,Puttering_Around,Expert,PA TYPE
+2022-01-24 16:42:45.000,2022-01-24 16:44:05,In_Position_Upright,Expert,POSTURE
+2022-01-24 16:42:45.000,2022-01-24 16:44:05,HLB_Unlabeled,Expert,HIGH LEVEL BEHAVIOR
+2022-01-24 16:42:45.000,2022-01-24 16:44:05,Free_Living,Expert,Experimental situation
+2022-01-24 16:42:45.000,2022-01-24 16:44:05,Carrying_Bag_On_Shoulder/Back_Light/Located_Indoors,Expert,Behavioral Parameters

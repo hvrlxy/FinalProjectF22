@@ -12,7 +12,7 @@ def get_file_name(subject_id: int):
     '''
     Returns the file name of the csv file for the given subject and hand.
     '''
-    folder = ROOT_DIR + f"data/raw/DS-{subject_id}/"
+    folder = ROOT_DIR + f"data/PAAWS/raw/DS-{subject_id}/"
     # get all the files in the folder
     files = os.listdir(folder)
     # print(files) 
@@ -74,7 +74,7 @@ def read_raw_dominant_hand_accel_data(subject_id: int):
     # set timestamp as the first column
     df.insert(0, "timestamp", timstamp_lst)
     # save the dataframe to a csv file
-    df.to_csv(ROOT_DIR + f"data/filtered/DS_{subject_id}_dominant_hand_accel_data.csv", index=False)
+    df.to_csv(ROOT_DIR + f"data/PAAWS/filtered/DS_{subject_id}_dominant_hand_accel_data.csv", index=False)
 
 def read_raw_nondominant_hand_accel_data(subject_id: int):
     '''
@@ -109,7 +109,7 @@ def read_raw_nondominant_hand_accel_data(subject_id: int):
     # set timestamp as the first column
     df.insert(0, "timestamp", timstamp_lst)
     # save the dataframe to a csv file
-    df.to_csv(ROOT_DIR + f"data/filtered/DS_{subject_id}_nondominant_hand_accel_data.csv", index=False)
+    df.to_csv(ROOT_DIR + f"data/PAAWS/filtered/DS_{subject_id}_nondominant_hand_accel_data.csv", index=False)
 
 for i in range(10, 33):
     try:

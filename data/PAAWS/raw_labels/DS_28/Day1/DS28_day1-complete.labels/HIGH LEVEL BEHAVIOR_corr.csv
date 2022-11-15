@@ -1,0 +1,200 @@
+START_TIME,STOP_TIME,PREDICTION,SOURCE,LABELSET
+2022-04-19 15:39:57.775,2022-04-19 15:42:46.725,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:42:46.725,2022-04-19 15:43:49.712,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:43:49.712,2022-04-19 15:48:18.637,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:48:18.637,2022-04-19 15:51:07.587,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:51:07.587,2022-04-19 15:51:56.575,Meeting _Social_Gathering_In_Person/Packing/Unpacking_Something,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:51:56.575,2022-04-19 15:52:12.575,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:52:12.575,2022-04-19 15:52:21.562,,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:52:21.562,2022-04-19 15:52:29.562,,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:52:29.562,2022-04-19 15:52:45.562,Riding_Elevator_Down,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:52:45.562,2022-04-19 15:52:59.562,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:52:59.562,2022-04-19 15:58:00.475,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:58:00.475,2022-04-19 15:58:07.475,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:58:07.475,2022-04-19 15:58:37.462,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:58:37.462,2022-04-19 15:58:54.462,,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:58:54.462,2022-04-19 15:59:02.450,,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:59:02.450,2022-04-19 15:59:31.450,Riding_Elevator_Up,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:59:31.450,2022-04-19 15:59:57.437,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 15:59:57.437,2022-04-19 16:02:09.400,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:02:09.400,2022-04-19 16:03:29.375,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:03:29.375,2022-04-19 16:06:04.337,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:06:04.337,2022-04-19 16:07:27.312,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:07:27.312,2022-04-19 16:38:01.800,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:38:01.800,2022-04-19 16:39:05.775,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:39:05.775,2022-04-19 16:39:45.762,,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:39:45.762,2022-04-19 16:40:09.762,Dressing/Undressing,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:40:09.762,2022-04-19 16:42:01.725,Dressing/Undressing,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:42:01.725,2022-04-19 16:43:25.700,Grooming/Self_Care,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:43:25.700,2022-04-19 16:43:34.700,,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:43:34.700,2022-04-19 16:44:09.687,Grooming/Self_Care,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:44:09.687,2022-04-19 16:44:39.687,,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:44:39.687,2022-04-19 16:45:59.662,Packing/Unpacking_Something,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:45:59.662,2022-04-19 16:46:24.650,Meeting _Social_Gathering_In_Person/In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:46:24.650,2022-04-19 16:46:55.650,Meeting _Social_Gathering_In_Person/Riding_Elevator_Down,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:46:55.650,2022-04-19 16:47:06.637,Meeting _Social_Gathering_In_Person/In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:47:06.637,2022-04-19 16:48:30.612,Meeting _Social_Gathering_In_Person/In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:48:30.612,2022-04-19 16:49:19.600,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:49:19.600,2022-04-19 16:52:07.550,Meeting _Social_Gathering_In_Person/In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:52:07.550,2022-04-19 16:52:34.550,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:52:34.550,2022-04-19 16:54:33.512,Meeting _Social_Gathering_In_Person/In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:54:33.512,2022-04-19 16:54:58.512,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:54:58.512,2022-04-19 16:58:19.450,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:58:19.450,2022-04-19 16:58:36.450,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 16:58:36.450,2022-04-19 17:00:08.425,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:00:08.425,2022-04-19 17:00:17.412,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:00:17.412,2022-04-19 17:00:32.412,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:00:32.412,2022-04-19 17:00:55.412,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:00:55.412,2022-04-19 17:01:33.400,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:01:33.400,2022-04-19 17:01:42.400,Meeting _Social_Gathering_In_Person/Eating/Dining,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:01:42.400,2022-04-19 17:02:52.375,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:02:52.375,2022-04-19 17:03:05.375,Meeting _Social_Gathering_In_Person/Eating/Dining,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:03:05.375,2022-04-19 17:03:45.362,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:03:45.362,2022-04-19 17:06:40.312,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:06:40.312,2022-04-19 17:07:11.300,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:07:11.300,2022-04-19 17:13:06.200,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:13:06.200,2022-04-19 17:13:39.187,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:13:39.187,2022-04-19 17:18:45.100,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:18:45.100,2022-04-19 17:23:02.037,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:23:02.037,2022-04-19 17:25:20.987,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:25:20.987,2022-04-19 17:27:50.950,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:27:50.950,2022-04-19 17:28:06.950,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:28:06.950,2022-04-19 17:29:28.925,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:29:28.925,2022-04-19 17:30:30.912,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:30:30.912,2022-04-19 17:38:46.762,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:38:46.762,2022-04-19 17:41:04.725,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:41:04.725,2022-04-19 17:43:55.675,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:43:55.675,2022-04-19 17:44:45.662,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:44:45.662,2022-04-19 17:47:33.612,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:47:33.612,2022-04-19 17:55:39.475,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:55:39.475,2022-04-19 17:55:57.475,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:55:57.475,2022-04-19 17:56:30.462,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 17:56:30.462,2022-04-19 18:08:09.275,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:08:09.275,2022-04-19 18:08:32.262,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:08:36.262,2022-04-19 18:09:18.250,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:09:18.250,2022-04-19 18:14:28.162,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:14:28.162,2022-04-19 18:15:04.150,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:15:08.150,2022-04-19 18:22:30.025,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:22:30.025,2022-04-19 18:22:49.025,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:22:49.025,2022-04-19 18:32:30.862,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:32:30.862,2022-04-19 18:33:06.850,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:33:06.850,2022-04-19 18:38:23.762,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:38:23.762,2022-04-19 18:39:39.737,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:39:39.737,2022-04-19 18:42:23.687,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:42:23.687,2022-04-19 18:43:23.675,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:43:23.675,2022-04-19 18:43:39.662,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:43:39.662,2022-04-19 18:43:53.662,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:43:53.662,2022-04-19 18:43:58.662,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:43:58.662,2022-04-19 18:45:18.637,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:45:18.637,2022-04-19 18:45:27.637,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:45:27.637,2022-04-19 18:45:29.637,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:45:29.637,2022-04-19 18:45:36.637,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:45:36.637,2022-04-19 18:45:38.637,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:45:38.637,2022-04-19 18:46:25.625,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:46:25.625,2022-04-19 18:46:40.612,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:46:40.612,2022-04-19 18:46:51.612,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:46:54.612,2022-04-19 18:48:10.587,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:48:10.587,2022-04-19 18:48:19.587,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:48:19.587,2022-04-19 18:48:29.587,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:48:32.587,2022-04-19 18:48:45.587,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:48:45.587,2022-04-19 18:48:56.575,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:48:56.575,2022-04-19 18:56:32.450,Meeting _Social_Gathering_In_Person/Eating/Dining,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:56:32.450,2022-04-19 18:59:26.400,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 18:59:26.400,2022-04-19 19:00:46.375,Meeting _Social_Gathering_In_Person/Eating/Dining,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:00:46.375,2022-04-19 19:03:49.325,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:03:49.325,2022-04-19 19:06:16.287,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:06:16.287,2022-04-19 19:06:43.275,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:06:43.275,2022-04-19 19:08:52.237,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:08:52.237,2022-04-19 19:09:21.237,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:09:21.237,2022-04-19 19:10:47.212,Meeting _Social_Gathering_In_Person/Packing/Unpacking_Something,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:10:47.212,2022-04-19 19:11:09.200,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:11:09.200,2022-04-19 19:11:15.200,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:11:15.200,2022-04-19 19:11:27.200,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:11:27.200,2022-04-19 19:11:36.200,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:11:36.200,2022-04-19 19:12:58.175,In_Transit_Active/Eating/Dining,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:12:58.175,2022-04-19 19:13:12.162,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:13:12.162,2022-04-19 19:15:00.137,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:15:00.137,2022-04-19 19:15:14.137,,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:15:14.137,2022-04-19 19:16:22.112,,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:16:22.112,2022-04-19 19:16:36.112,Eating/Dining,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:16:36.112,2022-04-19 19:25:44.950,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:25:44.950,2022-04-19 19:26:04.950,Meeting _Social_Gathering_In_Person/In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:26:04.950,2022-04-19 19:26:25.950,Meeting _Social_Gathering_In_Person/In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:26:25.950,2022-04-19 19:27:26.925,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:27:26.925,2022-04-19 19:27:48.925,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:27:48.925,2022-04-19 19:28:12.912,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:28:12.912,2022-04-19 19:29:57.887,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:29:57.887,2022-04-19 19:31:02.862,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:31:02.862,2022-04-19 19:31:21.862,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:31:21.862,2022-04-19 19:32:12.850,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:32:12.850,2022-04-19 19:32:58.837,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:32:58.837,2022-04-19 19:34:18.812,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:34:18.812,2022-04-19 19:35:52.787,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:35:52.787,2022-04-19 19:36:34.775,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:36:34.775,2022-04-19 19:36:51.762,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:36:51.762,2022-04-19 19:37:36.750,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:37:36.750,2022-04-19 19:38:10.750,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:38:10.750,2022-04-19 19:39:04.725,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:39:04.725,2022-04-19 19:40:27.712,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:40:27.712,2022-04-19 19:47:34.587,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:47:34.587,2022-04-19 19:49:48.550,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:49:48.550,2022-04-19 19:51:08.525,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:51:08.525,2022-04-19 19:51:23.525,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:51:23.525,2022-04-19 19:52:06.512,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:52:06.512,2022-04-19 19:55:59.450,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:55:59.450,2022-04-19 19:56:23.437,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:56:23.437,2022-04-19 19:57:04.425,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:57:04.425,2022-04-19 19:58:27.400,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 19:58:27.400,2022-04-19 20:03:43.312,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 20:03:43.312,2022-04-19 20:07:33.250,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 20:07:33.250,2022-04-19 20:08:17.237,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 20:08:17.237,2022-04-19 20:09:16.225,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 20:09:16.225,2022-04-19 20:32:19.825,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 20:32:19.825,2022-04-19 20:35:11.775,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 20:35:11.775,2022-04-19 20:36:43.750,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 20:36:43.750,2022-04-19 20:40:34.687,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 20:40:34.687,2022-04-19 20:42:00.662,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 20:42:01.662,2022-04-19 20:44:07.625,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 20:44:07.625,2022-04-19 21:02:01.325,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:02:01.325,2022-04-19 21:02:17.325,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:02:17.325,2022-04-19 21:02:34.312,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:02:34.312,2022-04-19 21:02:46.312,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:02:46.312,2022-04-19 21:09:17.200,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:09:17.200,2022-04-19 21:09:24.200,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:09:24.200,2022-04-19 21:09:57.187,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:09:57.187,2022-04-19 21:10:58.175,Riding_Elevator_Up,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:10:58.175,2022-04-19 21:11:15.175,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:11:15.175,2022-04-19 21:12:43.150,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:12:43.150,2022-04-19 21:13:08.137,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:13:08.137,2022-04-19 21:13:26.137,,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:13:28.137,2022-04-19 21:15:16.100,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:15:16.100,2022-04-19 21:16:02.087,Meeting _Social_Gathering_In_Person/Riding_Elevator_Down,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:16:02.087,2022-04-19 21:17:11.075,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:17:11.075,2022-04-19 21:20:59.000,Meeting _Social_Gathering_In_Person/Doing_Laundry,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:20:59.000,2022-04-19 21:21:47.987,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:21:47.987,2022-04-19 21:22:22.987,Meeting _Social_Gathering_In_Person/Riding_Elevator_Up,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:22:22.987,2022-04-19 21:22:50.975,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:22:50.975,2022-04-19 21:27:49.887,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:27:49.887,2022-04-19 21:32:10.812,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:32:10.812,2022-04-19 21:33:37.787,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:33:37.787,2022-04-19 21:37:50.725,,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:37:50.725,2022-04-19 21:38:15.712,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:38:15.712,2022-04-19 21:38:46.700,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:38:46.700,2022-04-19 21:39:09.700,,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:39:09.700,2022-04-19 21:39:38.687,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:39:38.687,2022-04-19 21:41:03.662,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:41:03.662,2022-04-19 21:42:33.637,,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:42:33.637,2022-04-19 21:56:21.412,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:56:21.412,2022-04-19 21:57:25.387,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:57:25.387,2022-04-19 21:57:43.387,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:57:43.387,2022-04-19 21:58:45.362,Meeting _Social_Gathering_In_Person/Riding_Elevator_Down,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:58:45.362,2022-04-19 21:59:20.362,Meeting _Social_Gathering_In_Person/In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 21:59:20.362,2022-04-19 22:04:55.262,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 22:04:55.262,2022-04-19 22:08:19.200,Meeting _Social_Gathering_In_Person/Doing_Laundry,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 22:08:19.200,2022-04-19 22:08:55.200,Meeting _Social_Gathering_In_Person/In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 22:08:55.200,2022-04-19 22:09:24.187,Meeting _Social_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 22:09:29.187,2022-04-19 22:10:11.175,Meeting _Social_Gathering_In_Person/Riding_Elevator_Up,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 22:10:11.175,2022-04-19 22:10:46.162,In_Transit_Active,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 22:10:46.162,2022-04-19 22:11:34.150,,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 22:11:34.150,2022-04-19 22:11:53.150,,annotator,HIGH LEVEL BEHAVIOR
+2022-04-19 22:11:53.150,2022-04-19 22:11:58.137,HLB_Indecipherable/Video_Insufficient,annotator,HIGH LEVEL BEHAVIOR

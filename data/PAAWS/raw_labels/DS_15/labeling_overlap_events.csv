@@ -1,0 +1,21 @@
+START_TIME,STOP_TIME,PREDICTION,SOURCE,LABELSET
+2022-02-01 17:08:25.300,2022-02-01 17:08:35.300,Washing_Hands,annotator,PA TYPE
+2022-02-01 17:08:25.300,2022-02-01 17:08:35.300,Located_Indoors,annotator,Behavioral Parameters
+2022-02-01 17:08:25.300,2022-02-01 17:08:35.300,In_Position_Upright,annotator,POSTURE
+2022-02-01 17:08:25.300,2022-02-01 17:08:35.300,Free_Living,annotator,Experimental situation
+2022-02-01 17:08:25.300,2022-02-01 17:08:35.300,Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-02-01 18:17:21.887,2022-02-01 18:17:44.887,Located_Indoors,annotator,Behavioral Parameters
+2022-02-01 18:17:21.887,2022-02-01 18:17:44.887,Free_Living,annotator,Experimental situation
+2022-02-01 18:17:21.887,2022-02-01 18:17:44.887,Exercising_Gym_Other,annotator,HIGH LEVEL BEHAVIOR
+2022-02-01 18:17:21.887,2022-02-01 18:17:44.887,In_Position_Upright,annotator,POSTURE
+2022-02-01 18:17:21.887,2022-02-01 18:17:44.887,Walking,annotator,PA TYPE
+2022-02-01 20:20:16.162,2022-02-01 20:21:10.150,In_Position_Upright,annotator,POSTURE
+2022-02-01 20:20:16.162,2022-02-01 20:21:10.150,Located_Indoors/In_Conversation,annotator,Behavioral Parameters
+2022-02-01 20:20:16.162,2022-02-01 20:21:10.150,Meeting_Formal_Gathering_In_Person,annotator,HIGH LEVEL BEHAVIOR
+2022-02-01 20:20:16.162,2022-02-01 20:21:10.150,Free_Living,annotator,Experimental situation
+2022-02-01 20:20:16.162,2022-02-01 20:21:10.150,Walking,annotator,PA TYPE
+2022-02-02 16:58:21.587,2022-02-02 17:23:40.537,Meeting _Social_Gathering_In_Person/Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
+2022-02-02 16:58:21.587,2022-02-02 17:23:40.537,Sitting_With_Movement,annotator,PA TYPE
+2022-02-02 16:58:21.587,2022-02-02 17:23:40.537,Free_Living,annotator,Experimental situation
+2022-02-02 16:58:21.587,2022-02-02 17:23:40.537,In_Position_Sitting,annotator,POSTURE
+2022-02-02 16:58:21.587,2022-02-02 17:23:40.537,Located_Indoors/Browsing_Computer,annotator,Behavioral Parameters

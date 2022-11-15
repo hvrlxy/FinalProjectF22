@@ -1,0 +1,3437 @@
+{
+    "annotations": [
+        {
+            "id": "a1b3c30f-5c55-4877-a454-8dd24ed2c833",
+            "range": {
+                "start": 6,
+                "end": 20
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "aafcbeeb-0722-8084-1b26-3bf28a6d55e2",
+                    "meta": {
+                        "datetime": "2022-05-19T17:40:55.437Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Unlabeled\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Synchronizing_Sensors\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "17dd9f73-8bb6-49cd-8529-d22b0793468b",
+            "range": {
+                "start": 24,
+                "end": 148
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "b91399f3-ba82-3552-6edf-9307e69a2d02",
+                    "meta": {
+                        "datetime": "2022-05-19T17:42:05.695Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Unlabeled\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "7e6223e2-f175-4e2e-a575-770b2cfe0bbb",
+            "range": {
+                "start": 151,
+                "end": 2105
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "ad480095-225d-5752-3cf3-74a48081caaf",
+                    "meta": {
+                        "datetime": "2022-05-19T17:43:05.527Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Using_Computer/Screen\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "0030bee4-e5d0-4e8e-a8d9-845abc8f70cf",
+            "range": {
+                "start": 2110,
+                "end": 2638
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "5e9c7d82-9ae8-eddd-8acb-fc9ce05a2851",
+                    "meta": {
+                        "datetime": "2022-05-19T17:43:28.800Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Using_Computer/Screen\",\"Eating/Dining\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "963200d6-3be1-473c-9f3b-661dd2ec5aa6",
+            "range": {
+                "start": 2654,
+                "end": 2983
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "e04413d5-3c68-046b-7ee0-f3c91869f5ab",
+                    "meta": {
+                        "datetime": "2022-05-19T17:44:01.456Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Using_Computer/Screen\",\"Eating/Dining\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "163238d4-8099-4429-8aab-1534f08faddf",
+            "range": {
+                "start": 2992,
+                "end": 3020
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "b12bad1f-c27b-d33b-47fe-01db7690b0c0",
+                    "meta": {
+                        "datetime": "2022-05-19T17:44:31.447Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Standing_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"In_Conversation\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "4b8ad909-48ae-44df-b4c1-6ddf06f27bb9",
+            "range": {
+                "start": 3023,
+                "end": 3210
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "fc5b6f1a-a4ee-b587-c00c-817286dc6853",
+                    "meta": {
+                        "datetime": "2022-05-19T17:44:57.727Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Using_Computer/Screen\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "230822f2-fcfe-48cb-927e-9a4c99cd78a0",
+            "range": {
+                "start": 3224,
+                "end": 3815
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "fe4e298b-f4f4-c9df-f37e-fc464964938b",
+                    "meta": {
+                        "datetime": "2022-05-19T17:45:25.015Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Using_Computer/Screen\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "2d58d955-b09d-41ef-9dcf-b35bb50cef5e",
+            "range": {
+                "start": 3817,
+                "end": 4121
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "497c3538-930f-a25f-f6f7-9f6bb79c91d7",
+                    "meta": {
+                        "datetime": "2022-05-19T17:45:44.991Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Unlabeled\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "7e4119ae-434b-42e2-8cd4-754201d73997",
+            "range": {
+                "start": 4127,
+                "end": 4289
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "323be505-9a21-5064-217a-239c4c1252bd",
+                    "meta": {
+                        "datetime": "2022-05-19T17:46:09.447Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Using_Computer/Screen\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Browsing_Computer\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "4be2fc92-064b-4550-9b3e-2f0c59fc72ef",
+            "range": {
+                "start": 4299,
+                "end": 4387
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "8c5ae6b5-a26e-7af4-96ae-18fd0b23d867",
+                    "meta": {
+                        "datetime": "2022-05-24T16:24:14.815Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Other\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "e31afd48-36e0-4c3b-88c1-c5a2b66d3325",
+            "range": {
+                "start": 4390,
+                "end": 4425
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "578bb732-28a4-c126-f9c5-1b90168d3a5f",
+                    "meta": {
+                        "datetime": "2022-05-24T16:24:32.196Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Using_Computer/Screen\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Browsing_Computer\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "82f77cb7-19ca-4316-a1c0-5d204857a5b5",
+            "range": {
+                "start": 4446,
+                "end": 4664
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "4f7cf8bd-9a8b-4f67-1b92-46d585b93014",
+                    "meta": {
+                        "datetime": "2022-05-24T16:25:11.426Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Using_Computer/Screen\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Browsing_Computer\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "e82c657a-44d7-4527-b409-e9cef3e98cbd",
+            "range": {
+                "start": 4667,
+                "end": 4988
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "58804b75-5d0f-8773-0819-b37ae0311322",
+                    "meta": {
+                        "datetime": "2022-05-24T16:25:40.475Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Unlabeled\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Texting/Browsing_Phone\",\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "adb0220e-8077-44d1-955f-baa44509c5fb",
+            "range": {
+                "start": 5005,
+                "end": 5389
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "c0904df7-a0f0-61e0-253a-02c7ec66456b",
+                    "meta": {
+                        "datetime": "2022-05-24T16:26:28.483Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Using_Computer/Screen\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Browsing_Computer\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "71a92849-2692-4fe6-ae34-58e152d4f0e9",
+            "range": {
+                "start": 5399,
+                "end": 5884
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "4c2396da-ee61-8667-2c07-bf94eb5ba55d",
+                    "meta": {
+                        "datetime": "2022-09-16T21:24:10.361Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Indecipherable/Video_Insufficient\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Puttering_Around\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "96289255-f1fc-4186-a350-2bca9a1fa877",
+            "range": {
+                "start": 5901,
+                "end": 5958
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "afbe56b7-a0ee-7dbe-42e0-8615b414a666",
+                    "meta": {
+                        "datetime": "2022-05-24T16:34:44.937Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "e9913961-c164-41ff-b5dd-0b036f4d5cff",
+            "range": {
+                "start": 5959,
+                "end": 6049
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "933af771-3945-7847-342d-95da460cdd05",
+                    "meta": {
+                        "datetime": "2022-05-24T16:35:48.808Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "20c884fe-7346-42bb-8695-1b1443311201",
+            "range": {
+                "start": 6064,
+                "end": 6109
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "9c78a1ad-83da-4674-bba9-8328541242d0",
+                    "meta": {
+                        "datetime": "2022-05-24T16:36:39.009Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Standing_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "a3970e98-f343-44ea-a3e1-cd624275a838",
+            "range": {
+                "start": 6113,
+                "end": 6142
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "5a506713-ab59-26a9-51ec-7ccd2fbbf019",
+                    "meta": {
+                        "datetime": "2022-05-24T16:37:00.658Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Riding_Elevator_Down\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Standing_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "69a52b14-ef72-4622-b8a7-a0b1b47cf7de",
+            "range": {
+                "start": 6146,
+                "end": 6179
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "d84a788a-f41a-56cb-fc37-29f8422f96c6",
+                    "meta": {
+                        "datetime": "2022-05-24T16:39:14.136Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "4ed66d94-0bf1-43d2-b123-cc7d96b6deff",
+            "range": {
+                "start": 6183,
+                "end": 6581
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "08344ba7-68e5-ffcb-54b8-f151c1343aa5",
+                    "meta": {
+                        "datetime": "2022-05-24T16:43:16.850Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "3a715a2c-43d7-41ec-afa4-0f2f943c89a8",
+            "range": {
+                "start": 6585,
+                "end": 6603
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "32320a2f-7981-0d00-1270-33664898912f",
+                    "meta": {
+                        "datetime": "2022-05-24T16:43:31.402Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "40d67315-bf8c-4ca8-b0f4-4392c195ef40",
+            "range": {
+                "start": 6605,
+                "end": 6628
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "7715ec0f-6314-1b9f-2db9-9798e9673969",
+                    "meta": {
+                        "datetime": "2022-05-24T16:43:41.297Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking_Up_Stairs\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "ab2deedb-31a6-4ac3-9c64-ec9b5761cd51",
+            "range": {
+                "start": 6629,
+                "end": 6672
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "7b057af7-8151-58d2-ee35-854f74a6aa3d",
+                    "meta": {
+                        "datetime": "2022-05-24T16:43:58.200Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "4e93c0cb-4df6-4161-a6ff-066fdebcd803",
+            "range": {
+                "start": 6672,
+                "end": 6895
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "b2628ea6-58fa-258e-3cc1-fbffd2e0d2ea",
+                    "meta": {
+                        "datetime": "2022-05-24T16:56:43.193Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"Posture_Indecipherable/Video_Insufficient\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Indecipherable/Video_Insufficient\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"PA_Type_VideoUnavailable/Indecipherable\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"CP_VideoUnavailable/Indecipherable\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "87aecfe9-a4fd-4a0a-a9a9-02b20fcedb45",
+            "range": {
+                "start": 6898,
+                "end": 6917
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "1e606f52-676a-de48-7a73-45436afbf3d0",
+                    "meta": {
+                        "datetime": "2022-05-24T16:57:24.585Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking_Down_Stairs\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "006aed8d-e6f3-48a3-b5ea-29c06d34dd6c",
+            "range": {
+                "start": 6919,
+                "end": 6947
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "308cb571-2db3-86a2-40f5-54f4441baa24",
+                    "meta": {
+                        "datetime": "2022-05-24T16:57:53.537Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "5cc8dc47-3677-4f28-8779-b24c9227b74b",
+            "range": {
+                "start": 6949,
+                "end": 7236
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "936ddf4f-89f2-f198-9e5c-cb8734cb2f7e",
+                    "meta": {
+                        "datetime": "2022-05-24T16:59:50.641Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\",\"Eating/Dining\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "b3b983fa-d99b-48eb-bfb4-91e1593be4cd",
+            "range": {
+                "start": 7238,
+                "end": 7301
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "ca53ad78-48f3-34e9-b83c-6d45dc5d87f7",
+                    "meta": {
+                        "datetime": "2022-05-24T17:00:08.871Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "9350ae1d-91e0-46cc-a70b-bc171c40cde3",
+            "range": {
+                "start": 7304,
+                "end": 7322
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "e3542d4b-c519-66b2-965a-1a2968e0be6c",
+                    "meta": {
+                        "datetime": "2022-05-24T17:00:24.657Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "c667954d-da1b-4176-9f49-22c0a4939b85",
+            "range": {
+                "start": 7325,
+                "end": 7345
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "859b17a9-1659-37ac-6915-e14c2c8a8c62",
+                    "meta": {
+                        "datetime": "2022-05-24T17:00:42.951Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Riding_Elevator_Up\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Standing_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "d91d0de1-f561-4a82-844a-79a0e83ad686",
+            "range": {
+                "start": 7347,
+                "end": 7374
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "7449f20e-ce3c-bc92-cbd6-bf3c0a0cf7b2",
+                    "meta": {
+                        "datetime": "2022-05-24T17:01:10.545Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "a0d77653-2b94-47c4-828b-1dcf79524faf",
+            "range": {
+                "start": 7377,
+                "end": 7417
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "2a822091-2783-9f26-94cc-3847a0039a55",
+                    "meta": {
+                        "datetime": "2022-05-24T17:01:27.439Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "c05fcbb3-216c-44ad-99c4-8588f41b0b46",
+            "range": {
+                "start": 7420,
+                "end": 19262
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "937ba87a-1c99-c866-f151-e55881edef97",
+                    "meta": {
+                        "datetime": "2022-05-24T17:05:50.551Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"Posture_Indecipherable/Video_Insufficient\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Indecipherable/Video_Insufficient\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"PA_Type_VideoUnavailable/Indecipherable\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"CP_VideoUnavailable/Indecipherable\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "432f5b18-b7d9-4b55-b332-adf4146d446c",
+            "range": {
+                "start": 19272,
+                "end": 19387
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "d7159b95-c0d5-0947-c0c1-99ee86a73f5e",
+                    "meta": {
+                        "datetime": "2022-05-24T17:08:58.070Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "8995cef8-7719-4d74-9f66-a055b0f8976a",
+            "range": {
+                "start": 19392,
+                "end": 19432
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "d911c535-dfbe-a872-94dc-44940accb8c7",
+                    "meta": {
+                        "datetime": "2022-05-24T17:09:13.039Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "ecb985b4-4c68-490c-b217-776ab7dcdd52",
+            "range": {
+                "start": 19434,
+                "end": 19452
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "b50f4fea-abb1-811f-1d26-a12f2aee11d5",
+                    "meta": {
+                        "datetime": "2022-05-24T17:10:05.256Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "9f77a4aa-5419-476e-80e9-157cfe573557",
+            "range": {
+                "start": 19453,
+                "end": 19476
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "50ed6f76-2656-7176-871c-aa5ffc3fed20",
+                    "meta": {
+                        "datetime": "2022-05-24T17:10:21.472Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "92f5e435-bf3a-4d06-b9cb-06966262ddae",
+            "range": {
+                "start": 19477,
+                "end": 19488
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "a6997f26-f51e-05b9-8aad-429b7b3cc907",
+                    "meta": {
+                        "datetime": "2022-05-24T17:10:38.784Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Standing_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "4ccd87b7-561e-4124-bb74-e83802af3fc7",
+            "range": {
+                "start": 19489,
+                "end": 19513
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "fe152931-e1d7-810f-2850-8cec1fe997d7",
+                    "meta": {
+                        "datetime": "2022-05-24T17:11:00.768Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Riding_Elevator_Down\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Standing_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "0ecfbe44-bc0a-4b62-a6b2-2d2220182ea7",
+            "range": {
+                "start": 19514,
+                "end": 19530
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "dc229fe3-e8af-010a-6c49-5adb59af35a4",
+                    "meta": {
+                        "datetime": "2022-05-24T17:13:34.090Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "d97bac4c-7c00-4d2a-9d1f-58cba04ec64e",
+            "range": {
+                "start": 19532,
+                "end": 19910
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "e170f9a8-5ff6-ea34-d411-05817f3c3619",
+                    "meta": {
+                        "datetime": "2022-05-24T17:14:05.118Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "e6a4fcfe-1ce0-403c-80eb-22a5f52e5c6a",
+            "range": {
+                "start": 19912,
+                "end": 19933
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "4360b471-a137-2f13-9749-27e4ceddb74f",
+                    "meta": {
+                        "datetime": "2022-05-24T17:14:25.839Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "9a596531-ae17-4447-9b82-4aca950e0ad9",
+            "range": {
+                "start": 19934,
+                "end": 20559
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "2cdbd961-e3e3-a5fc-ea6f-5d0a6f0951db",
+                    "meta": {
+                        "datetime": "2022-05-24T17:15:38.207Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Standing_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Indoors\",\"In_Conversation\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "c9eae01f-d0fb-40a3-8df6-1ac92dcda27b",
+            "range": {
+                "start": 20561,
+                "end": 20668
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "3d811d21-720c-4620-27bc-8593e28625db",
+                    "meta": {
+                        "datetime": "2022-05-24T17:16:15.159Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Standing_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Indoors\",\"In_Conversation\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "b27ddb68-196b-450b-bb2e-77c6dcd402ee",
+            "range": {
+                "start": 20676,
+                "end": 20785
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "552d6aa3-592c-6d3c-1d15-e093df196e22",
+                    "meta": {
+                        "datetime": "2022-05-24T17:18:40.263Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Eating/Dining\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking_Slow\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Indoors\",\"In_Conversation\",\"Holding_Other_Object_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "c64baaa0-dba7-4e4f-aa6f-dc9953188646",
+            "range": {
+                "start": 20790,
+                "end": 20814
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "4a17afdf-d5d2-fdb0-9990-7e8face25bb5",
+                    "meta": {
+                        "datetime": "2022-05-24T17:19:00.719Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Eating/Dining\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Indoors\",\"In_Conversation\",\"Holding_Other_Object_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "3feb38c0-e1cc-4fc0-bae9-903a22ad27ad",
+            "range": {
+                "start": 20815,
+                "end": 20826
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "e1b3ae6a-2978-3e20-e7ac-47cbb00549da",
+                    "meta": {
+                        "datetime": "2022-05-24T17:19:14.424Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Eating/Dining\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking_Down_Stairs\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Indoors\",\"In_Conversation\",\"Holding_Other_Object_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "27d92914-1cad-4a5c-96cb-479f3ead3dc2",
+            "range": {
+                "start": 20827,
+                "end": 20882
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "6585893f-5a7b-f30d-d7ba-f02ed434e295",
+                    "meta": {
+                        "datetime": "2022-05-24T17:21:43.813Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Eating/Dining\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"In_Conversation\",\"Holding_Other_Object_Light\",\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "9e1bfb66-ddda-45a8-856e-6a3f6aa3d945",
+            "range": {
+                "start": 20883,
+                "end": 20931
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "250225c2-6dc5-fad4-5626-a08d28b9ddbb",
+                    "meta": {
+                        "datetime": "2022-05-24T17:22:18.408Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Eating/Dining\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Holding_Other_Object_Light\",\"Located_Outdoors\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "483e3f25-5d23-4f54-b3dc-584672db805a",
+            "range": {
+                "start": 20932,
+                "end": 21079
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "f835e9fd-edda-7895-63ff-9a890b92dd21",
+                    "meta": {
+                        "datetime": "2022-05-24T17:24:28.559Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Eating/Dining\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Holding_Other_Object_Light\",\"Located_Outdoors\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "4d90d10d-f903-4adb-9a1b-b962266034c3",
+            "range": {
+                "start": 21080,
+                "end": 21101
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "23c8c605-7152-aa6e-5957-c00adf7ddb26",
+                    "meta": {
+                        "datetime": "2022-05-24T17:24:51.007Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Eating/Dining\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Holding_Other_Object_Light\",\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "2e8ba0de-2515-41a1-a8c6-8f157675c6e6",
+            "range": {
+                "start": 21103,
+                "end": 21345
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "edd87b41-5ac1-5566-719a-b3767961a369",
+                    "meta": {
+                        "datetime": "2022-05-24T17:25:56.015Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"Posture_Indecipherable/Video_Insufficient\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Indecipherable/Video_Insufficient\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"PA_Type_VideoUnavailable/Indecipherable\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"CP_VideoUnavailable/Indecipherable\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "546ee749-3603-47e9-8639-77a8cf419ee2",
+            "range": {
+                "start": 21347,
+                "end": 21397
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "d3d7d7aa-4ab1-b9bb-eee1-a844d20e557e",
+                    "meta": {
+                        "datetime": "2022-05-24T17:33:11.967Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Holding_Other_Object_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "3c6a34f3-66d1-4b73-b885-e7fa1a0a84a9",
+            "range": {
+                "start": 21398,
+                "end": 21557
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "1d90d356-5167-8db3-04cb-62dad49ff784",
+                    "meta": {
+                        "datetime": "2022-05-24T17:33:44.741Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Holding_Other_Object_Light\",\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "f94704c5-a17e-4839-a70f-e4b3bb6b01b9",
+            "range": {
+                "start": 21559,
+                "end": 21602
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "a9952be6-9052-6e1d-63c0-dbadfb65783c",
+                    "meta": {
+                        "datetime": "2022-05-24T17:35:33.621Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Holding_Other_Object_Light\",\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "3c5e90c8-08ad-461a-8516-cf0752251705",
+            "range": {
+                "start": 21603,
+                "end": 21632
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "312be7ae-f972-8929-7616-6e0615cecf20",
+                    "meta": {
+                        "datetime": "2022-05-24T17:35:51.093Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Riding_Elevator_Up\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Standing_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Holding_Other_Object_Light\",\"Located_Indoors\",\"In_Conversation\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "62a5c7f4-01f0-4d1c-b90d-ede9bf861187",
+            "range": {
+                "start": 21633,
+                "end": 21657
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "f1faa43b-b46b-c20e-3e62-c5f4a1decf83",
+                    "meta": {
+                        "datetime": "2022-05-24T17:36:13.967Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Holding_Other_Object_Light\",\"Located_Indoors\",\"In_Conversation\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "4576d760-6118-42ac-b3ac-20338acac66e",
+            "range": {
+                "start": 21658,
+                "end": 21677
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "6e4702c6-2935-ec2e-15f0-1e8ed47052be",
+                    "meta": {
+                        "datetime": "2022-05-24T17:36:32.197Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Holding_Other_Object_Light\",\"Located_Indoors\",\"In_Conversation\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "ba7f909a-3b3b-4630-87c5-0da6126957cd",
+            "range": {
+                "start": 21678,
+                "end": 21695
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "9569a684-36b5-866e-cc7d-589011b38bc5",
+                    "meta": {
+                        "datetime": "2022-05-24T17:36:46.807Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking_Up_Stairs\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Holding_Other_Object_Light\",\"Located_Indoors\",\"In_Conversation\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "7d278a85-e937-4ea9-be39-3abc1e2d2bd4",
+            "range": {
+                "start": 21696,
+                "end": 21721
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "99cbc9f5-bf21-a98a-2118-c72fe3147cf5",
+                    "meta": {
+                        "datetime": "2022-05-24T17:37:37.967Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Holding_Other_Object_Light\",\"Located_Indoors\",\"In_Conversation\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "143b38fb-24be-4669-bc06-b454b6ab09e9",
+            "range": {
+                "start": 21724,
+                "end": 21787
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "04664f5b-6e7e-7803-a56a-095c169904e2",
+                    "meta": {
+                        "datetime": "2022-05-24T17:41:11.047Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"In_Conversation\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "0b05aedb-9ba5-49ad-86a1-a7da6f9bebea",
+            "range": {
+                "start": 21792,
+                "end": 21875
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "8c4e07ea-6e2e-a213-fae7-d8fba58ba0e2",
+                    "meta": {
+                        "datetime": "2022-05-24T17:41:38.375Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Eating/Dining\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"In_Conversation\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "e1aaeb99-97b5-400e-be16-ba22d74a158b",
+            "range": {
+                "start": 21880,
+                "end": 21911
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "f25f81b4-01a3-4437-40cd-0ab38b8fd409",
+                    "meta": {
+                        "datetime": "2022-05-24T17:41:52.016Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Eating/Dining\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"In_Conversation\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "3198783a-9571-49a7-a3f6-4af340763af8",
+            "range": {
+                "start": 21913,
+                "end": 22055
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "7995e925-cc4e-5f6c-7338-988eb503e055",
+                    "meta": {
+                        "datetime": "2022-05-24T17:42:14.485Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Eating/Dining\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"In_Conversation\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "214ffe9a-d498-41ee-8e32-019f2cf011ac",
+            "range": {
+                "start": 22062,
+                "end": 22207
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "c3b5b2be-e39f-4a4b-a4d2-1bfcff60c1a5",
+                    "meta": {
+                        "datetime": "2022-05-24T17:43:35.966Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"Posture_Indecipherable/Video_Insufficient\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Indecipherable/Video_Insufficient\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"PA_Type_VideoUnavailable/Indecipherable\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"CP_VideoUnavailable/Indecipherable\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "0a3deb9b-2f96-4e07-b260-ace6d49141f2",
+            "range": {
+                "start": 22213,
+                "end": 22238
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "3fb87349-d64d-5dda-55bd-8b88e6e18ddd",
+                    "meta": {
+                        "datetime": "2022-05-24T17:44:05.310Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Unlabeled\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"On_Phone_Call\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "039ae755-68fd-4ae3-9721-cf2d95eef93d",
+            "range": {
+                "start": 22243,
+                "end": 22482
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "702ad52e-2183-d47f-f9d6-960070cd7e35",
+                    "meta": {
+                        "datetime": "2022-05-27T16:16:37.873Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"Posture_Indecipherable/Video_Insufficient\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Indecipherable/Video_Insufficient\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"PA_Type_VideoUnavailable/Indecipherable\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"CP_VideoUnavailable/Indecipherable\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "a63201eb-4c37-4d5d-96d1-b8af20e81e0a",
+            "range": {
+                "start": 22488,
+                "end": 23936
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "e925c76f-524e-e89e-13fc-e2db16be1231",
+                    "meta": {
+                        "datetime": "2022-05-27T16:21:44.265Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Eating/Dining\",\"Meeting _Social_Gathering_In_Person\",\"Using_Computer/Screen\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Browsing_Computer\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "02bb047d-af1a-4736-a871-1dec0709efd8",
+            "range": {
+                "start": 23940,
+                "end": 23990
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "8faae237-28ab-c0ff-74b3-5733623b2f20",
+                    "meta": {
+                        "datetime": "2022-05-27T16:22:05.585Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Using_Computer/Screen\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "08a264e4-0303-4e39-b63b-f049d23472b3",
+            "range": {
+                "start": 23993,
+                "end": 24018
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "40d1a439-c8d7-35f9-69b5-78fac000851f",
+                    "meta": {
+                        "datetime": "2022-05-27T16:22:20.505Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Using_Computer/Screen\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Typing_Computer\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "019b1888-ec36-47cc-bad7-7b209d18e5eb",
+            "range": {
+                "start": 24019,
+                "end": 24029
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "599743a1-b6f0-3f95-184d-a9cbc53c7afa",
+                    "meta": {
+                        "datetime": "2022-05-27T16:22:32.393Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Using_Computer/Screen\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "d9d57bf4-34b7-4bd8-8749-44d567852534",
+            "range": {
+                "start": 24031,
+                "end": 24162
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "75741948-a2f4-c9d0-64c1-589a58d2a67a",
+                    "meta": {
+                        "datetime": "2022-05-27T16:22:51.024Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Using_Computer/Screen\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Typing_Computer\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "793cf088-a029-411f-a489-9c5be3a3cf4c",
+            "range": {
+                "start": 24165,
+                "end": 24223
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "c5cb7959-1d3b-8556-5a10-a394bf1d9a52",
+                    "meta": {
+                        "datetime": "2022-05-27T16:23:38.160Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Using_Computer/Screen\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "b978e45f-3afd-4411-96ec-4ee1b474ba2a",
+            "range": {
+                "start": 24228,
+                "end": 25130
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "86b3177b-764b-13b4-007a-cb64c805fcf1",
+                    "meta": {
+                        "datetime": "2022-05-27T16:24:17.846Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Using_Computer/Screen\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Browsing_Computer\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "1fccb407-f614-40f8-8150-faab8f2ec4df",
+            "range": {
+                "start": 25131,
+                "end": 25197
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "9bd41fe5-2e50-feea-c8aa-846301c1d154",
+                    "meta": {
+                        "datetime": "2022-05-27T16:25:08.073Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Packing/Unpacking_Something\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "6f02ab6a-7ce4-4425-8892-47f3ed2e407e",
+            "range": {
+                "start": 25198,
+                "end": 25289
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "70a4d308-501c-3e02-d601-015e80b294c8",
+                    "meta": {
+                        "datetime": "2022-05-27T16:25:43.647Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "2015b171-54b5-41be-834d-bedf89315a1e",
+            "range": {
+                "start": 25293,
+                "end": 25330
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "d66a22f1-e143-f0a6-725a-bcb9241e0712",
+                    "meta": {
+                        "datetime": "2022-05-27T16:26:07.486Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Riding_Elevator_Up\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Standing_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "68bf8034-0eb8-4c81-832a-2b9d64d512b8",
+            "range": {
+                "start": 25330,
+                "end": 25341
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "256430ec-2f2f-d38d-ba23-1a741a36560c",
+                    "meta": {
+                        "datetime": "2022-05-27T16:26:30.752Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "efbdca24-e6d9-44aa-9199-4290d445f7d5",
+            "range": {
+                "start": 25347,
+                "end": 25420
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "55d00106-6dea-76ce-db78-07f9709ed48e",
+                    "meta": {
+                        "datetime": "2022-05-27T16:27:13.025Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"Posture_Indecipherable/Video_Insufficient\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Indecipherable/Video_Insufficient\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"PA_Type_VideoUnavailable/Indecipherable\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"CP_VideoUnavailable/Indecipherable\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "ca97c0ad-7445-47da-a4d0-2c64d27b07ad",
+            "range": {
+                "start": 25425,
+                "end": 25439
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "5b4f5ed3-97f0-71d4-5701-862e88850503",
+                    "meta": {
+                        "datetime": "2022-05-27T16:27:37.982Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "ab914cff-91f5-44d7-a696-254fd89bb33d",
+            "range": {
+                "start": 25443,
+                "end": 25684
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "d331ea0a-7c3b-0d93-e88c-8f7a232b5978",
+                    "meta": {
+                        "datetime": "2022-05-27T16:28:04.478Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "9fecc7ac-abd0-4d2a-b49e-bc57cf602504",
+            "range": {
+                "start": 25685,
+                "end": 25698
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "ae814768-2c41-3b45-c718-af1306cc550f",
+                    "meta": {
+                        "datetime": "2022-05-27T16:28:21.099Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking_Up_Stairs\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "15199e84-a0b8-4696-8ad1-8852cfc87449",
+            "range": {
+                "start": 25699,
+                "end": 25942
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "1e10f382-aba1-88e4-5988-9d1c74809632",
+                    "meta": {
+                        "datetime": "2022-05-27T16:28:52.199Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "2b433da7-dda6-4ce5-8ac7-bf37f88d3be8",
+            "range": {
+                "start": 25964,
+                "end": 28328
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "6d88d38f-a3b4-3e3c-f8e2-01338e1ffdbe",
+                    "meta": {
+                        "datetime": "2022-05-27T16:33:19.591Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Playing_Sports/Games\",\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "034c08a6-7970-426e-b198-56671c79bb61",
+            "range": {
+                "start": 28329,
+                "end": 28709
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "bd12197b-9b31-73e3-ef83-16183266aa8a",
+                    "meta": {
+                        "datetime": "2022-05-27T16:33:46.345Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "b32d03bf-59bd-49d8-8939-80b099e104d4",
+            "range": {
+                "start": 28712,
+                "end": 28738
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "99ab0caf-a8c3-db70-e4a7-aa9cec4e1afc",
+                    "meta": {
+                        "datetime": "2022-05-27T16:34:58.837Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "95fc6b5b-1747-4bac-8039-11443fdae0f8",
+            "range": {
+                "start": 28748,
+                "end": 31856
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "e390050d-24d4-6f0e-ea9a-2fe37464871c",
+                    "meta": {
+                        "datetime": "2022-09-16T21:26:08.822Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"Posture_Indecipherable/Video_Insufficient\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Playing_Sports/Games\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"PA_Type_VideoUnavailable/Indecipherable\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\",\"Significantly_Higher_Effort_Than_Normal\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "8f9eb1f1-661f-4efc-98ff-dfc7babdf56d",
+            "range": {
+                "start": 31866,
+                "end": 31983
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "a396f607-745b-745a-679b-24e52df9cc98",
+                    "meta": {
+                        "datetime": "2022-05-27T16:38:21.040Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Standing_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\",\"In_Conversation\",\"Carrying_Bag_On_Shoulder/Back_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "f1ce1b27-e9e5-4004-b99d-73920f0bea88",
+            "range": {
+                "start": 31987,
+                "end": 32228
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "1383f948-e3b8-97eb-5fcc-5f4d92671c86",
+                    "meta": {
+                        "datetime": "2022-05-27T16:39:12.911Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\",\"Carrying_Bag_On_Shoulder/Back_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "6d5c1ec5-c4d9-43e9-87dd-41be0c266bee",
+            "range": {
+                "start": 32230,
+                "end": 32252
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "6cca6257-6884-2549-cb20-923b3d52a3cc",
+                    "meta": {
+                        "datetime": "2022-05-27T16:39:28.925Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking_Up_Stairs\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\",\"Carrying_Bag_On_Shoulder/Back_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "ac997062-9679-4474-8cd3-45b8d48f0b69",
+            "range": {
+                "start": 32253,
+                "end": 32300
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "5f0f3080-da71-7721-5d35-5467c3738b26",
+                    "meta": {
+                        "datetime": "2022-05-27T16:39:58.405Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Standing_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\",\"Carrying_Bag_On_Shoulder/Back_Light\",\"In_Conversation\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "19a9b340-1e68-4710-887a-2c448b0c520f",
+            "range": {
+                "start": 32301,
+                "end": 32325
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "d5bcded2-5d3a-cef4-37d1-4398172f0a0f",
+                    "meta": {
+                        "datetime": "2022-05-27T16:43:14.623Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking_Down_Stairs\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\",\"Carrying_Bag_On_Shoulder/Back_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "fe12fcbd-5c7e-4bfb-8d25-d23e02e9dd90",
+            "range": {
+                "start": 32327,
+                "end": 32782
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "1ae3f559-8ad8-1780-aa8b-45f5955b5778",
+                    "meta": {
+                        "datetime": "2022-05-27T16:45:00.429Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\",\"Carrying_Bag_On_Shoulder/Back_Light\",\"In_Conversation\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "bb998ccd-06e6-4f22-bfa7-eb3c75747a90",
+            "range": {
+                "start": 32796,
+                "end": 32939
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "30b3a808-fb8c-8a96-353b-a06d94461f5a",
+                    "meta": {
+                        "datetime": "2022-09-16T21:28:08.933Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Puttering_Around\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\",\"In_Conversation\",\"Holding_Other_Object_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "42ffffc8-fc5e-4c4f-813f-285de192908d",
+            "range": {
+                "start": 32949,
+                "end": 33031
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "17b21837-abd5-d3b6-4530-4edcb93e71e3",
+                    "meta": {
+                        "datetime": "2022-05-27T16:48:30.468Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Kneeling\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Kneeling_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\",\"In_Conversation\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "9351a490-604a-45ad-9ba8-da89a6178c9a",
+            "range": {
+                "start": 33032,
+                "end": 34820
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "7f674e47-90a6-498f-6e6d-265bedbb7828",
+                    "meta": {
+                        "datetime": "2022-09-16T21:33:16.548Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Playing_Sports/Games\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"PA_Type_Too_Complex\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\",\"Significantly_Higher_Effort_Than_Normal\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "0df8186b-0ba9-4f58-ab02-f32dc5bfa683",
+            "range": {
+                "start": 34830,
+                "end": 34891
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "d8c59acc-c989-b684-f380-993b270d2dfc",
+                    "meta": {
+                        "datetime": "2022-05-27T16:50:07.383Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\",\"In_Conversation\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "950290ca-ac0e-4e56-842c-e908ade2d65b",
+            "range": {
+                "start": 34892,
+                "end": 34984
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "1e06de3f-3328-5671-64de-d8944ad731de",
+                    "meta": {
+                        "datetime": "2022-05-27T16:50:41.830Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Eating/Dining\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "3adb5cf2-a0cb-4065-9c11-c2f2b336b97d",
+            "range": {
+                "start": 34985,
+                "end": 35029
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "090ec231-6614-222c-061f-f7b9c2fd926a",
+                    "meta": {
+                        "datetime": "2022-05-27T16:51:00.639Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Eating/Dining\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "c5a8ff82-65bd-4d6a-9a00-6620d8761fb7",
+            "range": {
+                "start": 35032,
+                "end": 35067
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "61869beb-8245-7803-806d-f1fc0ed4f07c",
+                    "meta": {
+                        "datetime": "2022-05-27T16:55:06.469Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "5a75ac98-978a-4748-a6cd-745beca1470f",
+            "range": {
+                "start": 35069,
+                "end": 35679
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "6b9db770-3bdd-d9d9-f4df-33787e16300d",
+                    "meta": {
+                        "datetime": "2022-05-27T16:55:43.871Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "cf881670-c9e0-4917-872c-140347467086",
+            "range": {
+                "start": 35679,
+                "end": 36497
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "8847f5b7-dffb-2f37-e496-e44b1a0992c6",
+                    "meta": {
+                        "datetime": "2022-09-16T21:33:36.037Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Playing_Sports/Games\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"PA_Type_Too_Complex\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\",\"Significantly_Higher_Effort_Than_Normal\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "53f723a8-a329-4162-acd6-6942fbfadf89",
+            "range": {
+                "start": 36507,
+                "end": 36608
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "c9ea47fa-f826-3cd8-1235-12cb4992f6bb",
+                    "meta": {
+                        "datetime": "2022-05-27T17:16:54.270Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\",\"In_Conversation\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "c1d8b17b-4593-48ee-b8f4-443f6a915f6e",
+            "range": {
+                "start": 36618,
+                "end": 36879
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "42ad8cf2-0e76-2c5b-55a6-35b390963d6e",
+                    "meta": {
+                        "datetime": "2022-05-27T17:17:48.468Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\",\"In_Conversation\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "f091285b-4f64-4a73-b35c-e25de8c9b041",
+            "range": {
+                "start": 36881,
+                "end": 37159
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "09948cbc-d197-23bf-f458-c79bcdac0225",
+                    "meta": {
+                        "datetime": "2022-05-27T17:18:17.354Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\",\"In_Conversation\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "42591b4f-5b85-4e1e-8c84-a5ffdb9dd63b",
+            "range": {
+                "start": 37161,
+                "end": 37308
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "f6b07ea9-113e-9172-eaaa-375b7b1e5f30",
+                    "meta": {
+                        "datetime": "2022-05-27T17:18:47.310Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"In_Conversation\",\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "c0c27605-04e4-43ae-9cda-e79a9b48dc4a",
+            "range": {
+                "start": 37313,
+                "end": 37399
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "c578d361-5659-00f4-6b04-b3f3ef87ee8b",
+                    "meta": {
+                        "datetime": "2022-05-27T17:19:07.270Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Holding_Other_Object_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "30590086-2392-4935-bc79-b2d589ae270f",
+            "range": {
+                "start": 37400,
+                "end": 37622
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "ff2c51e8-664c-0a23-2396-273e750c4131",
+                    "meta": {
+                        "datetime": "2022-05-27T17:19:33.215Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Eating/Dining\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "2aac7ee7-3311-426a-b04d-314de06012d3",
+            "range": {
+                "start": 37628,
+                "end": 37711
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "3855031f-e344-f8ca-932d-d2b5ed991eeb",
+                    "meta": {
+                        "datetime": "2022-05-27T17:21:31.572Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Holding_Other_Object_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "02c7d95a-9b85-457b-9b23-8957c73a85fc",
+            "range": {
+                "start": 37718,
+                "end": 39583
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "b3f7e5c2-e357-9e10-aa39-91a93ac03dd3",
+                    "meta": {
+                        "datetime": "2022-05-27T17:29:29.301Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\",\"Eating/Dining\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "2bc2033f-432a-44e0-8e83-6d0027ba1ac5",
+            "range": {
+                "start": 39593,
+                "end": 39655
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "f897a897-e873-0487-ac3e-20a1d2260fda",
+                    "meta": {
+                        "datetime": "2022-05-27T17:30:01.182Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Holding_Other_Object_Light\",\"Carrying_Bag_On_Shoulder/Back_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "a496a20a-6f64-4d45-b0c2-a5f1b23ec74d",
+            "range": {
+                "start": 39656,
+                "end": 39757
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "57413ec6-96cc-5027-3f78-e7b11bd28b82",
+                    "meta": {
+                        "datetime": "2022-05-27T17:30:27.565Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "d6a73422-574e-4c50-8b31-27da83bd110c",
+            "range": {
+                "start": 39762,
+                "end": 40018
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "c2bbbece-7d8c-cd00-a871-2f7b7677bdcf",
+                    "meta": {
+                        "datetime": "2022-05-27T17:31:02.712Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Unlabeled\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "c3c74391-6716-4c15-a987-8448a31d9364",
+            "range": {
+                "start": 40023,
+                "end": 40197
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "c3ce3e8b-3cbc-7a0b-ef61-6eeed4daea87",
+                    "meta": {
+                        "datetime": "2022-05-27T17:31:41.534Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\",\"In_Conversation\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "76155141-ac60-4ab1-b71e-f967b2956afb",
+            "range": {
+                "start": 40204,
+                "end": 40396
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "7f6e0487-4284-805e-49b1-182154b70a3f",
+                    "meta": {
+                        "datetime": "2022-05-27T17:32:05.037Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Meeting _Social_Gathering_In_Person\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\",\"In_Conversation\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "afd76ce9-1bdd-453c-84a5-684af8ece130",
+            "range": {
+                "start": 40408,
+                "end": 40473
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "eece892d-84f2-5997-f473-eb0285ec5b23",
+                    "meta": {
+                        "datetime": "2022-05-27T17:32:42.363Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Carrying_Bag_On_Shoulder/Back_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "9c18d1b3-09eb-4159-bb93-60cad54143f5",
+            "range": {
+                "start": 40476,
+                "end": 40592
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "1be772df-0898-51ee-8de1-4932f6ed317f",
+                    "meta": {
+                        "datetime": "2022-05-27T17:32:57.982Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "5c7126cb-67c7-4be9-8590-481375efb7a8",
+            "range": {
+                "start": 40593,
+                "end": 40607
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "009911a9-d151-6b63-1681-db140235947b",
+                    "meta": {
+                        "datetime": "2022-05-27T17:33:17.326Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking_Down_Stairs\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "89c7a118-a93b-425a-a005-b20e39b0476a",
+            "range": {
+                "start": 40609,
+                "end": 40977
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "eb0ee575-59e3-8eec-5e3b-1b63821417f5",
+                    "meta": {
+                        "datetime": "2022-05-27T17:33:42.092Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "9bbf9e40-956c-485a-bd6c-3816feb263d2",
+            "range": {
+                "start": 40978,
+                "end": 41030
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "08a22daa-93a4-d681-b4c6-8a4c1647f0dc",
+                    "meta": {
+                        "datetime": "2022-05-27T17:39:16.445Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking_Up_Stairs\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Carrying_Bag_On_Shoulder/Back_Light\",\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "623cb6b7-2bc4-4628-92e4-f0b66e94e01f",
+            "range": {
+                "start": 41032,
+                "end": 41175
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "245674d1-b3cb-1498-160b-dbda84ea693e",
+                    "meta": {
+                        "datetime": "2022-05-27T17:40:11.181Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "ad9b9118-ac4d-46bd-933a-4bac71d322dc",
+            "range": {
+                "start": 41177,
+                "end": 43562
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "64ffb1cf-76cf-b40e-a0fc-279d1549ce4c",
+                    "meta": {
+                        "datetime": "2022-05-31T16:28:11.308Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"Posture_Indecipherable/Video_Insufficient\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Indecipherable/Video_Insufficient\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"PA_Type_VideoUnavailable/Indecipherable\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"CP_VideoUnavailable/Indecipherable\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "9f7644ac-c8d5-4229-bde8-6e2239839b3f",
+            "range": {
+                "start": 43567,
+                "end": 43835
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "c2e918e5-7e60-5414-0a2b-4eaa0648fed0",
+                    "meta": {
+                        "datetime": "2022-05-31T16:30:07.918Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Cleaning\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Puttering_Around\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "ff0880ba-f9c5-4df8-934b-e8ec12a41e86",
+            "range": {
+                "start": 43840,
+                "end": 44505
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "8e7a16fa-294f-9a2a-e58b-1d8ec2ba59a2",
+                    "meta": {
+                        "datetime": "2022-05-31T16:30:48.151Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Unlabeled\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Texting/Browsing_Phone\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "23186d04-9065-44fc-9a0d-7bb57a69b90c",
+            "range": {
+                "start": 44509,
+                "end": 44581
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "88cafed6-eac5-68c5-1bb9-498fbd91134e",
+                    "meta": {
+                        "datetime": "2022-05-31T16:31:18.958Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Dressing/Undressing\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "0f4c9a0c-3937-4556-b37c-7dc2257ea6f4",
+            "range": {
+                "start": 44588,
+                "end": 44712
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "6d74a17a-06c8-0ff7-50c9-990b358ea669",
+                    "meta": {
+                        "datetime": "2022-05-31T16:31:51.134Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"Posture_Indecipherable/Video_Insufficient\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Indecipherable/Video_Insufficient\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"PA_Type_VideoUnavailable/Indecipherable\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "afc5c1f9-0d3a-4968-bfb3-a234ef52c798",
+            "range": {
+                "start": 44714,
+                "end": 48279
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "8c2c7c74-9d81-e7e3-7a1a-b0582913fbe0",
+                    "meta": {
+                        "datetime": "2022-05-31T16:33:52.213Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"Lying_On_Back\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Relaxing_Passive\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Lying_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "99fe2b1c-3851-4d2a-a850-13f776467285",
+            "range": {
+                "start": 48283,
+                "end": 48494
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "79814fd6-9653-56e6-e437-d48cdcda6e18",
+                    "meta": {
+                        "datetime": "2022-05-31T16:39:43.707Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"Posture_Indecipherable/Video_Insufficient\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"HLB_Indecipherable/Video_Insufficient\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"PA_Type_VideoUnavailable/Indecipherable\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "dd9904ff-08b7-44e5-8c2b-94981dc117f7",
+            "range": {
+                "start": 48502,
+                "end": 49516
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "120c18b0-75b0-4f13-8512-03e8919239e6",
+                    "meta": {
+                        "datetime": "2022-05-31T16:40:57.747Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Eating/Dining\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "fdef7164-db39-4a93-beda-cf4ec8866754",
+            "range": {
+                "start": 49517,
+                "end": 49580
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "d1a9492c-6c11-e1c1-d407-45f25fb0217b",
+                    "meta": {
+                        "datetime": "2022-05-31T16:41:14.691Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "7f0c8760-9d1f-411c-8cfa-18bcd3cb5260",
+            "range": {
+                "start": 49581,
+                "end": 49601
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "215f74f7-dcd9-0b20-eeaf-83220ed76a05",
+                    "meta": {
+                        "datetime": "2022-05-31T16:41:25.818Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking_Down_Stairs\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "846bc836-fc86-455f-88bf-aaa4235a2ab6",
+            "range": {
+                "start": 49603,
+                "end": 49644
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "b2964b63-3769-0630-466f-44a6b3c3672c",
+                    "meta": {
+                        "datetime": "2022-05-31T16:41:48.147Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "046a67fc-02b1-459c-9900-3edbc9a93cd3",
+            "range": {
+                "start": 49644,
+                "end": 49701
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "e2b6e1ef-ce18-ca82-d9e2-a49bc8b2fe45",
+                    "meta": {
+                        "datetime": "2022-05-31T16:42:02.712Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "0190fb2f-1b01-4940-8181-48c067e7bfb5",
+            "range": {
+                "start": 49702,
+                "end": 49801
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "d0a516a9-2ae8-430c-1edf-297b4cb5522b",
+                    "meta": {
+                        "datetime": "2022-05-31T16:42:44.211Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Shopping_Grocery\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Holding_Other_Object_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "e1478349-2bce-495f-ae47-851bf74b8b82",
+            "range": {
+                "start": 49810,
+                "end": 49927
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "29f25339-9223-328a-d971-485413b32a72",
+                    "meta": {
+                        "datetime": "2022-05-31T16:45:15.347Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Shopping_Grocery\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\",\"Holding_Other_Object_Light\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "3f736f9c-6221-4538-82b9-08305a6477d9",
+            "range": {
+                "start": 49930,
+                "end": 49985
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "40df8fd2-317e-2dac-1501-c64ea9ec3bd9",
+                    "meta": {
+                        "datetime": "2022-05-31T16:45:33.499Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Holding_Other_Object_Light\",\"Located_Outdoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "2539f260-26f0-44d6-9f80-1a295247c0f4",
+            "range": {
+                "start": 49987,
+                "end": 50011
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "fe508cc8-39f6-d640-0f1f-44257fcdeb69",
+                    "meta": {
+                        "datetime": "2022-05-31T16:45:44.403Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Holding_Other_Object_Light\",\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "bc0b0637-cd26-4cb8-9ecf-b82be663f2ca",
+            "range": {
+                "start": 50013,
+                "end": 50025
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "9f5a9ea9-ec3f-9e67-fcf2-4010e12c172a",
+                    "meta": {
+                        "datetime": "2022-05-31T16:45:54.872Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking_Up_Stairs\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Holding_Other_Object_Light\",\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "4c4fcf71-8b8d-47e2-87bd-440c49832ae4",
+            "range": {
+                "start": 50026,
+                "end": 50092
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "8c1222fe-dc77-0530-4abc-83f41d8adb64",
+                    "meta": {
+                        "datetime": "2022-05-31T16:46:10.905Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Upright\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"In_Transit_Active\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Walking\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Holding_Other_Object_Light\",\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "36fb14b5-151f-43f1-ac7d-0b174e038604",
+            "range": {
+                "start": 50093,
+                "end": 50512
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "9a037556-ca11-a156-ec7f-f83e959ebdac",
+                    "meta": {
+                        "datetime": "2022-05-31T16:46:42.122Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"In_Position_Sitting\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Eating/Dining\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Sitting_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        },
+        {
+            "id": "a2ebf8f7-d710-4933-94b4-d92548bfad13",
+            "range": {
+                "start": 50520,
+                "end": 52279
+            },
+            "shape": {
+                "x1": null,
+                "x2": null,
+                "y1": null,
+                "y2": null
+            },
+            "comments": [
+                {
+                    "id": "83bea22b-d302-b090-6862-b7416b8d2f85",
+                    "meta": {
+                        "datetime": "2022-05-31T16:49:45.634Z",
+                        "user_id": 2,
+                        "user_name": "Harish"
+                    },
+                    "body": "[{\"category\":\"POSTURE\",\"selectedValue\":\"Lying_On_Back\"},{\"category\":\"HIGH LEVEL BEHAVIOR\",\"selectedValue\":[\"Using_Computer/Screen\"]},{\"category\":\"PA TYPE\",\"selectedValue\":\"Lying_With_Movement\"},{\"category\":\"Behavioral Parameters\",\"selectedValue\":[\"Located_Indoors\"]},{\"category\":\"Experimental situation\",\"selectedValue\":\"Free_Living\"}]"
+                }
+            ]
+        }
+    ],
+    "videoHash": -1128333794
+}
