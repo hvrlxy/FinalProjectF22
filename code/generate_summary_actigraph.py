@@ -21,7 +21,7 @@ class ActigraphSummary:
     def get_file_name(self, subject_id: int):
         '''
         This function takes in the subject's id and return the list of timestamp-synced actigraph files for the subject
-        ::params:subject_id: id of the subject
+        :params: subject_id: id of the subject
         '''
         folder_path =  self.path + "data/filtered/"
         files_lst = os.listdir(folder_path)
@@ -31,6 +31,11 @@ class ActigraphSummary:
         return subject_files
 
     def print_head_file(self, subject_id):
+        '''
+        This function takes in the subject's id and print the head of the actigraph file
+        :params: subject_id: id of the subject
+        :return: None
+        '''
         subject_files = self.get_file_name(subject_id=subject_id)
         for file in subject_files:
             print("Printing out the first 5 lines for file: ", file)
@@ -43,22 +48,31 @@ class ActigraphSummary:
             # print the first 5 timestamp
             print(list(file_df['timestamp'].head(5)))
 
-    def apply_filter_to_all_axis(self, actigraphy_df):
+    def apply_filter_to_all_axis(self, subject_id, actigraphy_df):
         '''
         This function takes in the subject's id and apply the low pass filter to all the axis. This function return the filtered data.
+        :params: subject_id: id of the subject
+        :params: actigraphy_df: the actigraphy dataframe
+        :return: filtered data
         '''
         # rename the axis to be timestamp, x, y, z
         actigraphy_df.rename(columns={'timestamp': 'timestamp', 'Accelerometer X': 'x', 'Accelerometer Y': 'y', 'Accelerometer Z': 'z'}, inplace=True)
         # apply low pass filter to all the axis
-        actigraphy_df['x'] = self.low_pass_filter(actigraphy_df['x'])
-        actigraphy_df['y'] = self.low_pass_filter(actigraphy_df['y'])
-        actigraphy_df['z'] = self.low_pass_filter(actigraphy_df['z'])
+        actigraphy_df['x'] = self.moving_average_filtered(actigraphy_df['x'])
+        actigraphy_df['y'] = self.moving_average_filtered(actigraphy_df['y'])
+        actigraphy_df['z'] = self.moving_average_filtered(actigraphy_df['z'])
+
+        #save the filtered data to a csv file
+        # actigraphy_df.to_csv(f"{self.path}/data/filtered/low_pass_filtered/filtered_{subject_id}.csv", index=False)
         return actigraphy_df
 
     def segment_and_add_features(self, subject_id, is_dominant_hand=True):
         '''
         This function takes in the subject's id, segment the data into 10s window and add features to the data.
         Return a new dataframe with the features added and the timestamp of the first sample in the segment
+        :params: subject_id: id of the subject
+        :params: is_dominant_hand: whether the data we are looking at is dominant/right hand or not
+        :return: a new dataframe with the features added and the timestamp of the first sample in the segment
         '''
         subject_files = self.get_file_name(subject_id=subject_id)
         file = subject_files[0]
@@ -68,7 +82,7 @@ class ActigraphSummary:
         actigraphy_df = pd.read_csv(f"{self.path}/data/filtered/{file}")
         # rename the axis to be timestamp, x, y, z
         actigraphy_df.rename(columns={'timestamp': 'timestamp', 'Accelerometer X': 'x', 'Accelerometer Y': 'y', 'Accelerometer Z': 'z'}, inplace=True)
-        actigraphy_df = self.apply_filter_to_all_axis(actigraphy_df)
+        actigraphy_df = self.apply_filter_to_all_axis(subject_id, actigraphy_df)
         # loop through the data in 10s window (80Hz * 10s = 800 samples)
         window_size = 800
         length_data = len(actigraphy_df)
@@ -234,6 +248,18 @@ class ActigraphSummary:
         y = scipy.signal.lfilter(b, a, data)
         return y
 
+    def moving_average_filtered(self, data, window_size = 20):
+        '''
+        This function takes in the data and the window size and returns the moving average filtered data
+        :params: data: the data to be filtered
+        :params: window_size: the window size
+        :return: filtered data
+        '''
+        filtered_value = np.convolve(data, np.ones((window_size,))/window_size, mode='valid')
+        # add the window_sixe - 1 values to the beginning of the filtered data
+        filtered_value = np.concatenate((np.full((window_size - 1), np.nan), filtered_value))
+        return filtered_value
+
     def get_time_series_features(self, signal):
         window_size = len(signal)
         # mean
@@ -273,7 +299,6 @@ class ActigraphSummary:
 
         return [sig_mean, sig_std, sig_aad, sig_min, sig_max, sig_maxmin_diff, sig_median, sig_mad, sig_IQR, sig_neg_count, sig_pos_count, sig_above_mean, sig_num_peaks, sig_skew, sig_kurtosis, sig_energy, sig_sma]
 
-
     def get_freq_domain_features(self, signal):
         all_fft_features = []
         window_size = len(signal)
@@ -287,7 +312,7 @@ class ActigraphSummary:
         all_fft_features.extend(fft_feats)
         return all_fft_features
 
-    def test_low_pass_filter(self, subject_id):
+    def test_filter(self, subject_id):
         '''
         This function takes in the subject_id, extract the first 10 minutes of data (80Hz) and plot the original and filtered data
         :params: subject_id: the id of the subject
@@ -299,27 +324,22 @@ class ActigraphSummary:
         # rename the axis to be timestamp, x, y, z
         file_df.rename(columns={'timestamp': 'timestamp', 'Accelerometer X': 'x', 'Accelerometer Y': 'y', 'Accelerometer Z': 'z'}, inplace=True)
         # get the first 30 seconds of data
-        file_df = file_df.iloc[1000000:1000000 +30*80]
+        x_axis = file_df['x']
+        x_filtered = self.moving_average_filtered(x_axis)
+        print(x_axis[10000000:10000000 +30*80])
         # plot the original data for x axis in one subplot
         plt.subplot(2,1,1)
-        plt.plot(file_df['x'])
+        plt.plot(x_axis[10000000:10000000 +30*80])
         plt.title("Original data")
         # plot the filtered data for x axis in another subplot
         plt.subplot(2,1,2)
-        plt.plot(self.low_pass_filter(file_df['x'], cutoff=4, fs=80, order=5))
+        print(x_filtered[10000000:10000000 +30*80])
+        plt.plot(x_filtered[10000000:10000000 +30*80])
         plt.title("Filtered data")
         plt.show()
 
 
 accelSummary = ActigraphSummary(ROOT_DIR)
-# accelSummary.get_file_name(10)
-# accelSummary.print_head_file(10)
-# accelSummary.test_low_pass_filter(10)
-# for i in range(23, 33):
-#     accelSummary.segment_and_add_features(i, is_dominant_hand=True)
-#     accelSummary.segment_and_add_features(i, is_dominant_hand=False)
-
-accelSummary.print_head_file(23)
-
-
 # accelSummary.segment_and_add_features(10)
+for i in range(11, 33):
+    accelSummary.segment_and_add_features(i)
