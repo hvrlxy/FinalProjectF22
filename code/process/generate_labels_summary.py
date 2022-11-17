@@ -77,6 +77,9 @@ def get_labels_summary(subject_id: int, which_labels: int, is_dominant_hand=True
     summary.to_csv(ROOT_DIR + f"data/PAAWS/labels_summary/{labels_type[which_labels]}/summary_{subject_id}_{is_dominant_hand}.csv", index=False)
 
 
-for label in range(1, 5):
-    for subject in range(10, 20):
-        get_labels_summary(subject_id = subject, which_labels = label, is_dominant_hand = True)
+# for label in range(1, 5):
+#     for subject in range(20, 33):
+#         try:
+#             get_labels_summary(subject_id = subject, which_labels = label, is_dominant_hand = True)
+#         except:
+#             print("Error for subject", subject, "with dominant hand = True and labels = ", label)
