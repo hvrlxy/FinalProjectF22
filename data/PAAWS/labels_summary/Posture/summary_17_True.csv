@@ -1,0 +1,14 @@
+label,number_of_samples
+In_Position_Sitting,16259
+In_Position_Upright,7993
+In_Position_Kneeling,21
+Posture_Indecipherable,8615
+Video_Insufficient,8615
+Lying_On_Right_Side,434
+Lying_On_Back,573
+Lying_On_Stomach,67
+In_Position_Reclining_Slouching,933
+Lying_On_Left_Side,912
+Posture_Other),19
+total_samples,68992
+total_number_of_labels,44441

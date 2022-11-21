@@ -1,0 +1,131 @@
+START_TIME,STOP_TIME,PREDICTION,SOURCE,LABELSET,VIDEO_START_TIME,VIDEO_END_TIME
+2022-04-10 06:24:00,2022-04-10 06:24:16,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 00:00:00,2022-04-10 00:00:16
+2022-04-10 06:24:16,2022-04-10 06:24:55,Located_Indoors, Holding_Other_Object_Light,annotator,Behavioral Parameters,2022-04-10 00:00:16,2022-04-10 00:00:55
+2022-04-10 06:24:55,2022-04-10 06:25:09,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 00:00:55,2022-04-10 00:01:09
+2022-04-10 06:25:09,2022-04-10 06:26:00,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 00:01:09,2022-04-10 00:02:00
+2022-04-10 06:26:00,2022-04-10 06:26:21,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 00:02:00,2022-04-10 00:02:21
+2022-04-10 06:26:21,2022-04-10 06:26:29,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 00:02:21,2022-04-10 00:02:29
+2022-04-10 06:26:29,2022-04-10 06:26:54,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 00:02:29,2022-04-10 00:02:54
+2022-04-10 06:26:54,2022-04-10 06:26:59,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 00:02:54,2022-04-10 00:02:59
+2022-04-10 06:26:59,2022-04-10 06:27:32,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 00:02:59,2022-04-10 00:03:32
+2022-04-10 06:27:32,2022-04-10 06:27:50,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 00:03:32,2022-04-10 00:03:50
+2022-04-10 06:27:50,2022-04-10 06:37:02,Located_Outdoors,annotator,Behavioral Parameters,2022-04-10 00:03:50,2022-04-10 00:13:02
+2022-04-10 06:37:02,2022-04-10 06:37:46,Located_Outdoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 00:13:02,2022-04-10 00:13:46
+2022-04-10 06:37:46,2022-04-10 06:38:20,Located_Indoors, In_Conversation,annotator,Behavioral Parameters,2022-04-10 00:13:46,2022-04-10 00:14:20
+2022-04-10 06:38:20,2022-04-10 06:38:47,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 00:14:20,2022-04-10 00:14:47
+2022-04-10 06:38:47,2022-04-10 06:39:00,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 00:14:47,2022-04-10 00:15:00
+2022-04-10 06:39:00,2022-04-10 06:39:57,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 00:15:00,2022-04-10 00:15:57
+2022-04-10 06:39:57,2022-04-10 06:40:28,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 00:15:57,2022-04-10 00:16:28
+2022-04-10 06:40:28,2022-04-10 07:42:01,Located_Indoors, Browsing_Computer, Typing_Computer,annotator,Behavioral Parameters,2022-04-10 00:16:28,2022-04-10 01:18:01
+2022-04-10 07:42:01,2022-04-10 07:42:14,Located_Indoors, Holding_Other_Object_Light,annotator,Behavioral Parameters,2022-04-10 01:18:01,2022-04-10 01:18:14
+2022-04-10 07:42:14,2022-04-10 08:08:40,Located_Indoors, Browsing_Computer, Typing_Computer,annotator,Behavioral Parameters,2022-04-10 01:18:14,2022-04-10 01:44:40
+2022-04-10 08:08:40,2022-04-10 08:08:51,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 01:44:40,2022-04-10 01:44:51
+2022-04-10 08:08:51,2022-04-10 08:12:24,Located_Indoors, Browsing_Computer, Typing_Computer,annotator,Behavioral Parameters,2022-04-10 01:44:51,2022-04-10 01:48:24
+2022-04-10 08:12:24,2022-04-10 08:13:05,Located_Indoors, In_Conversation,annotator,Behavioral Parameters,2022-04-10 01:48:24,2022-04-10 01:49:05
+2022-04-10 08:13:05,2022-04-10 08:26:14,Located_Indoors, Browsing_Computer, Typing_Computer,annotator,Behavioral Parameters,2022-04-10 01:49:05,2022-04-10 02:02:14
+2022-04-10 08:26:14,2022-04-10 08:26:55,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 02:02:14,2022-04-10 02:02:55
+2022-04-10 08:26:55,2022-04-10 08:27:08,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 02:02:55,2022-04-10 02:03:08
+2022-04-10 08:27:08,2022-04-10 08:27:45,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 02:03:08,2022-04-10 02:03:45
+2022-04-10 08:27:45,2022-04-10 08:28:58,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 02:03:45,2022-04-10 02:04:58
+2022-04-10 08:28:58,2022-04-10 08:29:41,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 02:04:58,2022-04-10 02:05:41
+2022-04-10 08:29:41,2022-04-10 08:29:59,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 02:05:41,2022-04-10 02:05:59
+2022-04-10 08:29:59,2022-04-10 08:30:44,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 02:05:59,2022-04-10 02:06:44
+2022-04-10 08:30:44,2022-04-10 08:31:01,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 02:06:44,2022-04-10 02:07:01
+2022-04-10 08:31:01,2022-04-10 08:31:31,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 02:07:01,2022-04-10 02:07:31
+2022-04-10 08:31:31,2022-04-10 08:37:12,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 02:07:31,2022-04-10 02:13:12
+2022-04-10 08:37:12,2022-04-10 08:37:30,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 02:13:12,2022-04-10 02:13:30
+2022-04-10 08:37:30,2022-04-10 08:56:09,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 02:13:30,2022-04-10 02:32:09
+2022-04-10 08:56:09,2022-04-10 08:56:18,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 02:32:09,2022-04-10 02:32:18
+2022-04-10 08:56:18,2022-04-10 08:57:41,Located_Indoors, Browsing_Computer, Typing_Computer,annotator,Behavioral Parameters,2022-04-10 02:32:18,2022-04-10 02:33:41
+2022-04-10 08:57:41,2022-04-10 08:58:52,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 02:33:41,2022-04-10 02:34:52
+2022-04-10 08:58:52,2022-04-10 09:12:48,Located_Indoors, Browsing_Computer, Typing_Computer,annotator,Behavioral Parameters,2022-04-10 02:34:52,2022-04-10 02:48:48
+2022-04-10 09:12:48,2022-04-10 09:14:06,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 02:48:48,2022-04-10 02:50:06
+2022-04-10 09:14:06,2022-04-10 09:18:51,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 02:50:06,2022-04-10 02:54:51
+2022-04-10 09:18:51,2022-04-10 09:19:16,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 02:54:51,2022-04-10 02:55:16
+2022-04-10 09:19:19,2022-04-10 09:38:05,Located_Indoors, Typing_Computer, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 02:55:19,2022-04-10 03:14:05
+2022-04-10 09:38:05,2022-04-10 09:38:58,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 03:14:05,2022-04-10 03:14:58
+2022-04-10 09:38:58,2022-04-10 09:39:30,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 03:14:58,2022-04-10 03:15:30
+2022-04-10 09:39:30,2022-04-10 09:40:10,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 03:15:30,2022-04-10 03:16:10
+2022-04-10 09:40:10,2022-04-10 09:40:45,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 03:16:10,2022-04-10 03:16:45
+2022-04-10 09:40:45,2022-04-10 09:41:33,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 03:16:45,2022-04-10 03:17:33
+2022-04-10 09:41:33,2022-04-10 09:44:04,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 03:17:33,2022-04-10 03:20:04
+2022-04-10 09:44:04,2022-04-10 09:51:13,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 03:20:04,2022-04-10 03:27:13
+2022-04-10 09:51:13,2022-04-10 09:51:59,Located_Indoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 03:27:13,2022-04-10 03:27:59
+2022-04-10 09:51:59,2022-04-10 10:03:04,Located_Indoors, Browsing_Computer, Typing_Computer,annotator,Behavioral Parameters,2022-04-10 03:27:59,2022-04-10 03:39:04
+2022-04-10 10:03:04,2022-04-10 10:04:58,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 03:39:04,2022-04-10 03:40:58
+2022-04-10 10:04:58,2022-04-10 10:06:27,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 03:40:58,2022-04-10 03:42:27
+2022-04-10 10:06:27,2022-04-10 10:11:16,Located_Indoors, In_Conversation,annotator,Behavioral Parameters,2022-04-10 03:42:27,2022-04-10 03:47:16
+2022-04-10 10:11:16,2022-04-10 10:11:34,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 03:47:16,2022-04-10 03:47:34
+2022-04-10 10:11:34,2022-04-10 10:13:24,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 03:47:34,2022-04-10 03:49:24
+2022-04-10 10:13:24,2022-04-10 10:13:38,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 03:49:24,2022-04-10 03:49:38
+2022-04-10 10:13:38,2022-04-10 10:13:58,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 03:49:38,2022-04-10 03:49:58
+2022-04-10 10:13:58,2022-04-10 10:14:09,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 03:49:58,2022-04-10 03:50:09
+2022-04-10 10:14:09,2022-04-10 10:14:51,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 03:50:09,2022-04-10 03:50:51
+2022-04-10 10:14:51,2022-04-10 10:19:17,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 03:50:51,2022-04-10 03:55:17
+2022-04-10 10:19:17,2022-04-10 10:19:46,BP_VideoUnavailable/Indecipherable,annotator,Behavioral Parameters,2022-04-10 03:55:17,2022-04-10 03:55:46
+2022-04-10 10:19:46,2022-04-10 10:20:20,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 03:55:46,2022-04-10 03:56:20
+2022-04-10 10:20:20,2022-04-10 10:21:56,Located_Indoors, Holding_Other_Object_Light,annotator,Behavioral Parameters,2022-04-10 03:56:20,2022-04-10 03:57:56
+2022-04-10 10:21:56,2022-04-10 10:23:01,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 03:57:56,2022-04-10 03:59:01
+2022-04-10 10:23:01,2022-04-10 10:23:28,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 03:59:01,2022-04-10 03:59:28
+2022-04-10 10:23:28,2022-04-10 10:37:54,Located_Outdoors,annotator,Behavioral Parameters,2022-04-10 03:59:28,2022-04-10 04:13:54
+2022-04-10 10:37:54,2022-04-10 10:38:39,Located_Outdoors,annotator,Behavioral Parameters,2022-04-10 04:13:54,2022-04-10 04:14:39
+2022-04-10 10:38:39,2022-04-10 10:39:59,Located_Outdoors,annotator,Behavioral Parameters,2022-04-10 04:14:39,2022-04-10 04:15:59
+2022-04-10 10:39:59,2022-04-10 10:40:31,Located_Outdoors,annotator,Behavioral Parameters,2022-04-10 04:15:59,2022-04-10 04:16:31
+2022-04-10 10:40:31,2022-04-10 10:41:00,Located_Outdoors,annotator,Behavioral Parameters,2022-04-10 04:16:31,2022-04-10 04:17:00
+2022-04-10 10:41:00,2022-04-10 10:45:57,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 04:17:00,2022-04-10 04:21:57
+2022-04-10 10:45:57,2022-04-10 10:46:18,Located_Indoors, In_Conversation,annotator,Behavioral Parameters,2022-04-10 04:21:57,2022-04-10 04:22:18
+2022-04-10 10:46:18,2022-04-10 10:47:20,Located_Indoors, Holding_Drink,annotator,Behavioral Parameters,2022-04-10 04:22:18,2022-04-10 04:23:20
+2022-04-10 10:47:20,2022-04-10 10:47:35,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 04:23:20,2022-04-10 04:23:35
+2022-04-10 10:47:35,2022-04-10 10:47:57,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 04:23:35,2022-04-10 04:23:57
+2022-04-10 10:47:57,2022-04-10 10:54:01,BP_VideoUnavailable/Indecipherable,annotator,Behavioral Parameters,2022-04-10 04:23:57,2022-04-10 04:30:01
+2022-04-10 10:54:01,2022-04-10 10:54:48,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 04:30:01,2022-04-10 04:30:48
+2022-04-10 10:54:48,2022-04-10 10:55:10,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 04:30:48,2022-04-10 04:31:10
+2022-04-10 10:55:10,2022-04-10 10:55:51,Located_Outdoors,annotator,Behavioral Parameters,2022-04-10 04:31:10,2022-04-10 04:31:51
+2022-04-10 10:55:51,2022-04-10 10:57:00,Located_Outdoors, In_Conversation,annotator,Behavioral Parameters,2022-04-10 04:31:51,2022-04-10 04:33:00
+2022-04-10 10:57:00,2022-04-10 10:58:44,Located_Outdoors, Holding_Other_Object_Light, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 04:33:00,2022-04-10 04:34:44
+2022-04-10 10:58:44,2022-04-10 11:03:45,Located_Outdoors,annotator,Behavioral Parameters,2022-04-10 04:34:44,2022-04-10 04:39:45
+2022-04-10 11:03:45,2022-04-10 11:04:17,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 04:39:45,2022-04-10 04:40:17
+2022-04-10 11:04:17,2022-04-10 11:04:34,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 04:40:17,2022-04-10 04:40:34
+2022-04-10 11:04:34,2022-04-10 11:06:35,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 04:40:34,2022-04-10 04:42:35
+2022-04-10 11:06:35,2022-04-10 11:16:31,Located_Indoors, Holding_Solid_Food,annotator,Behavioral Parameters,2022-04-10 04:42:35,2022-04-10 04:52:31
+2022-04-10 11:16:31,2022-04-10 11:18:50,Located_Indoors, Holding_Drink,annotator,Behavioral Parameters,2022-04-10 04:52:31,2022-04-10 04:54:50
+2022-04-10 11:18:50,2022-04-10 11:20:09,Located_Indoors, Holding_Drink,annotator,Behavioral Parameters,2022-04-10 04:54:50,2022-04-10 04:56:09
+2022-04-10 11:20:09,2022-04-10 11:21:13,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 04:56:09,2022-04-10 04:57:13
+2022-04-10 11:21:13,2022-04-10 11:21:56,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 04:57:13,2022-04-10 04:57:56
+2022-04-10 11:21:56,2022-04-10 11:23:20,Located_Outdoors,annotator,Behavioral Parameters,2022-04-10 04:57:56,2022-04-10 04:59:20
+2022-04-10 11:23:20,2022-04-10 11:23:49,Located_Outdoors,annotator,Behavioral Parameters,2022-04-10 04:59:20,2022-04-10 04:59:49
+2022-04-10 11:23:49,2022-04-10 11:29:43,Located_Outdoors,annotator,Behavioral Parameters,2022-04-10 04:59:49,2022-04-10 05:05:43
+2022-04-10 11:29:43,2022-04-10 11:32:45,Located_Outdoors, In_Conversation,annotator,Behavioral Parameters,2022-04-10 05:05:43,2022-04-10 05:08:45
+2022-04-10 11:32:45,2022-04-10 11:36:15,Located_Outdoors,annotator,Behavioral Parameters,2022-04-10 05:08:45,2022-04-10 05:12:15
+2022-04-10 11:36:15,2022-04-10 11:36:30,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 05:12:15,2022-04-10 05:12:30
+2022-04-10 11:36:30,2022-04-10 11:36:43,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 05:12:30,2022-04-10 05:12:43
+2022-04-10 11:36:43,2022-04-10 11:37:53,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 05:12:43,2022-04-10 05:13:53
+2022-04-10 11:37:53,2022-04-10 11:38:41,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 05:13:53,2022-04-10 05:14:41
+2022-04-10 11:38:41,2022-04-10 11:39:21,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 05:14:41,2022-04-10 05:15:21
+2022-04-10 11:39:21,2022-04-10 11:40:47,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 05:15:21,2022-04-10 05:16:47
+2022-04-10 11:40:47,2022-04-10 11:41:35,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 05:16:47,2022-04-10 05:17:35
+2022-04-10 11:41:35,2022-04-10 12:03:05,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 05:17:35,2022-04-10 05:39:05
+2022-04-10 12:03:05,2022-04-10 12:03:48,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 05:39:05,2022-04-10 05:39:48
+2022-04-10 12:03:48,2022-04-10 12:16:25,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 05:39:48,2022-04-10 05:52:25
+2022-04-10 12:16:25,2022-04-10 12:18:08,Located_Indoors, In_Conversation,annotator,Behavioral Parameters,2022-04-10 05:52:25,2022-04-10 05:54:08
+2022-04-10 12:18:08,2022-04-10 12:29:54,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 05:54:08,2022-04-10 06:05:54
+2022-04-10 12:29:54,2022-04-10 12:30:02,Located_Indoors, Holding_Drink,annotator,Behavioral Parameters,2022-04-10 06:05:54,2022-04-10 06:06:02
+2022-04-10 12:30:02,2022-04-10 12:40:21,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 06:06:02,2022-04-10 06:16:21
+2022-04-10 12:40:21,2022-04-10 12:49:13,Located_Indoors, Browsing_Computer, On_Video_Call/FaceTime,annotator,Behavioral Parameters,2022-04-10 06:16:21,2022-04-10 06:25:13
+2022-04-10 12:49:13,2022-04-10 12:58:35,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 06:25:13,2022-04-10 06:34:35
+2022-04-10 12:58:35,2022-04-10 12:59:13,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 06:34:35,2022-04-10 06:35:13
+2022-04-10 12:59:13,2022-04-10 13:08:39,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 06:35:13,2022-04-10 06:44:39
+2022-04-10 13:08:39,2022-04-10 13:09:29,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 06:44:39,2022-04-10 06:45:29
+2022-04-10 13:09:29,2022-04-10 15:27:27,Located_Indoors, Browsing_Computer, Typing_Computer,annotator,Behavioral Parameters,2022-04-10 06:45:29,2022-04-10 09:03:27
+2022-04-10 15:27:27,2022-04-10 15:28:20,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 09:03:27,2022-04-10 09:04:20
+2022-04-10 15:28:20,2022-04-10 15:29:12,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 09:04:20,2022-04-10 09:05:12
+2022-04-10 15:29:18,2022-04-10 15:29:28,Located_Indoors, Texting/Browsing_Phone,annotator,Behavioral Parameters,2022-04-10 09:05:18,2022-04-10 09:05:28
+2022-04-10 15:29:28,2022-04-10 15:45:54,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 09:05:28,2022-04-10 09:21:54
+2022-04-10 15:45:54,2022-04-10 15:46:08,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 09:21:54,2022-04-10 09:22:08
+2022-04-10 15:46:08,2022-04-10 15:46:40,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 09:22:08,2022-04-10 09:22:40
+2022-04-10 15:46:40,2022-04-10 15:47:18,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 09:22:40,2022-04-10 09:23:18
+2022-04-10 15:47:30,2022-04-10 15:47:42,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 09:23:30,2022-04-10 09:23:42
+2022-04-10 15:47:42,2022-04-10 15:48:04,Located_Indoors,annotator,Behavioral Parameters,2022-04-10 09:23:42,2022-04-10 09:24:04
+2022-04-10 15:48:04,2022-04-10 15:48:54,BP_VideoUnavailable/Indecipherable,annotator,Behavioral Parameters,2022-04-10 09:24:04,2022-04-10 09:24:54
+2022-04-10 15:48:54,2022-04-10 15:54:54,Located_Indoors, Browsing_Computer,annotator,Behavioral Parameters,2022-04-10 09:24:54,2022-04-10 09:30:54
+2022-04-10 15:54:54,2022-04-10 15:56:43,BP_VideoUnavailable/Indecipherable,annotator,Behavioral Parameters,2022-04-10 09:30:54,2022-04-10 09:32:43

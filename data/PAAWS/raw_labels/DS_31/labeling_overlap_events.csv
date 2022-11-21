@@ -1,0 +1,6 @@
+START_TIME,STOP_TIME,PREDICTION,SOURCE,LABELSET
+2022-04-29 22:41:02.912,2022-04-29 23:05:15.912000,Sitting_With_Movement,Expert,PA TYPE
+2022-04-29 22:41:02.912,2022-04-29 23:05:15.912000,In_Position_Upright,Expert,POSTURE
+2022-04-29 22:41:02.912,2022-04-29 23:05:15.912000,WatchingTV/Movies,Expert,HIGH LEVEL BEHAVIOR
+2022-04-29 22:41:02.912,2022-04-29 23:05:15.912000,Free_Living,Expert,Experimental situation
+2022-04-29 22:41:02.912,2022-04-29 23:05:15.912000,Located_Indoors/In_Conversation/Legs_Crossed/Legs_Uncrossed/Holding_Other_Object_Light/Holding_Drink,Expert,Behavioral Parameters

@@ -1,6 +1,0 @@
-START_TIME,STOP_TIME,PREDICTION,SOURCE,LABELSET
-2022-04-06 16:39:39.400,2022-04-06 16:41:25.362,Sitting_With_Movement,annotator,PA TYPE
-2022-04-06 16:39:39.400,2022-04-06 16:41:25.362,In_Position_Sitting,annotator,POSTURE
-2022-04-06 16:39:39.400,2022-04-06 16:41:25.362,Using_Computer/Screen,annotator,HIGH LEVEL BEHAVIOR
-2022-04-06 16:39:39.400,2022-04-06 16:41:25.362,Free_Living,annotator,Experimental situation
-2022-04-06 16:39:39.400,2022-04-06 16:41:25.362,Located_Indoors/Browsing_Computer,annotator,Behavioral Parameters
