@@ -13,9 +13,6 @@ warnings.filterwarnings("ignore")
 # motion_score_threshold = 0.5
 # activation_function = "linear"
 
-# initialize the algorithm
-algorithm = DoubleThreshold(soft_threshold, hard_threshold, wake_window, motion_window, wake_score_threshold, motion_score_threshold, activation_function)
-
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__)) + "/../../.."
 
 def run_algorithm(soft_threshold, hard_threshold, wake_window, motion_window, wake_score_threshold, motion_score_threshold, activation_function):
