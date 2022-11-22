@@ -1,0 +1,27 @@
+label,number_of_samples
+Meeting _Social_Gathering_In_Person,364
+Dressing,69
+Undressing,69
+In_Transit_Active,557
+Riding_Elevator_Down,5
+Doing_Common_Housework_Light,1
+Packing,64
+Unpacking_Something,64
+Using_Computer,785
+Screen,785
+HLB_Indecipherable,330
+Video_Insufficient,330
+HLB_Unlabeled,270
+In_Transit_Passive_Car,63
+Doing_Common_Housework,29
+WatchingTV,877
+Movies,877
+Meeting_Virtual,82
+Relaxing_Passive,265
+Grooming,21
+Self_Care,21
+Riding_Elevator_Up,4
+Eating,154
+Dining,154
+total_samples,24977
+total_number_of_labels,6240

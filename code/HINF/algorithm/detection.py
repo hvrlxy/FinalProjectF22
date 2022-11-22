@@ -68,17 +68,17 @@ class DoubleThreshold:
         # calculate the moving average with the motion_window
         auc_df["moving_average_motion"] = self.moving_average(auc_df["score"], self.motion_window)
         # detect the wake events
-        wake_events = self.detect_wake(auc_df)
+        wake_events, wake_results_df = self.detect_wake(auc_df)
         # merge wake events that are within 5 minutes
         wake_events = self.merge_motion_events(wake_events)
         # detect the motion events
-        motion_events = self.detect_motion(auc_df)
+        motion_events, motion_results_df = self.detect_motion(auc_df)
         # merge the motion events
         motion_events = self.merge_motion_events(motion_events)
 
         if plot:
             self.generate_plot(auc_df, wake_events, motion_events, plot_path)
-        return wake_events, motion_events
+        return wake_events, motion_events, wake_results_df, motion_results_df
 
     def detect_wake(self, auc_df):
         '''
@@ -96,7 +96,19 @@ class DoubleThreshold:
                     wake_end = i
                     wake_events.append([auc_df["timestamp"][wake_start], auc_df["timestamp"][wake_end]])
                     wake_start = None
-        return wake_events
+
+        wake_results_df = pd.DataFrame()
+        #append the timestamp in the auc_df to the wake_results_df
+        wake_results_df["timestamp"] = auc_df["timestamp"]
+        # convert the timestamp to datetime from epoch
+        wake_results_df["datetime"] = wake_results_df["timestamp"].apply(lambda x: dt.datetime.fromtimestamp(x))   
+        # only get the date
+        wake_results_df["date"] = wake_results_df["datetime"].apply(lambda x: x.date())
+        # remove the datetime
+        wake_results_df = wake_results_df.drop(columns = ["datetime"])
+        # create a column is_wake to indicate whether the timestamp is within a wake event
+        wake_results_df["is_wake"] = auc_df["moving_average"].apply(lambda x: 1 if x >= self.wake_score_threshold else 0)
+        return wake_events, wake_results_df
                 
         
 
@@ -115,7 +127,13 @@ class DoubleThreshold:
                     motion_end = i
                     motion_events.append([auc_df["timestamp"][motion_start], auc_df["timestamp"][motion_end]])
                     motion_start = None
-        return motion_events
+
+        motion_results_df = pd.DataFrame()
+        #append the timestamp in the auc_df to the motion_results_df
+        motion_results_df["timestamp"] = auc_df["timestamp"]
+        # create a column is_motion to indicate whether the timestamp is within a motion event
+        motion_results_df["is_motion"] = auc_df["moving_average"].apply(lambda x: 1 if x >= self.motion_score_threshold else 0)
+        return motion_events, motion_results_df
 
     def merge_motion_events(self, motion_events):
         '''

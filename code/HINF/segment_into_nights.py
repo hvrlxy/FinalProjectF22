@@ -51,7 +51,7 @@ def segment_AUC_into_night(subject_id: int, is_dominant_hand = True):
         # only get the data from 10pm to midnight of the previous day
         df_previous_day = df_previous_day[(df_previous_day["hour"] >= 22)]
         # only get the data from midnight to 10am of the current day
-        df_date = df_date[(df_date["hour"] >= 0) & (df_date["hour"] <= 10)]
+        df_date = df_date[(df_date["hour"] >= 0) & (df_date["hour"] <= 13)]
         # concatenate the two dataframes
         df_night = pd.concat([df_previous_day, df_date])
         # reinde the dataframe's index

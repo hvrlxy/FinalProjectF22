@@ -1,0 +1,14 @@
+label,number_of_samples
+Standing_With_Movement,384
+Synchronizing_Sensors,7
+Walking,180
+Puttering_Around,122
+Sitting_With_Movement,1849
+PA_Type_VideoUnavailable,692
+Indecipherable,692
+PA_Type_Other,137
+Walking_Down_Stairs,2
+Walking_Up_Stairs,3
+Lying_With_Movement,217
+total_samples,24977
+total_number_of_labels,4285
