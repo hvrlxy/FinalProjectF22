@@ -45,7 +45,7 @@ def run_algorithm(soft_threshold, hard_threshold, wake_window, motion_window, wa
                     if auc_df.shape[0] == 0:
                         continue
                     # detect the wake and motion events
-                    wake_events, motion_events, wake_results_df, motion_results_df = algorithm.detect(auc_df, plot = True, plot_path = ROOT_DIR + f"/data/PAAWS/HINF_results/plotDetectionByNight/DS_{subject}/{hand}/DS_{subject}_{hand}_{night}.png")
+                    wake_events, motion_events, wake_results_df, motion_results_df = algorithm.detect(auc_df, plot = False, plot_path = ROOT_DIR + f"/data/PAAWS/HINF_results/plotDetectionByNight/DS_{subject}/{hand}/DS_{subject}_{hand}_{night}.png")
                     # save the wake and motion events
                     # search if the subject folder exists in the results folder
                     if not os.path.exists(ROOT_DIR + f"/data/PAAWS/HINF_results/results/DS_{subject}"):
@@ -93,24 +93,28 @@ def run_algorithm(soft_threshold, hard_threshold, wake_window, motion_window, wa
                         motion_results = pd.read_csv(ROOT_DIR + f"/data/PAAWS/HINF_results/results/DS_{subject}/{hand}/motion_results.csv")
                         motion_results = motion_results.append(motion_results_df, ignore_index = True)
                         motion_results.to_csv(ROOT_DIR + f"/data/PAAWS/HINF_results/results/DS_{subject}/{hand}/motion_results.csv", index = False)
-        except:
-            print(f"Error processing subject {subject}".format(subject))
+        except Exception as e:
+            print(f"RUNNING ALGORITHM: Error processing subject {subject}".format(subject))
+            print(e)
             continue
 
-if __name__ == "__main__":
-    # get the arguments
-    if len(sys.argv) < 8:
-        print("Usage: python3 detectEventsByNight.py <soft_threshold> <hard_threshold> <wake_window> <motion_window> <wake_score_threshold> <motion_score_threshold> <activation_function>")
-        exit(1)
+# if __name__ == "__main__":
+#     # get the arguments
+#     if len(sys.argv) < 8:
+#         print("Usage: python3 detectEventsByNight.py <soft_threshold> <hard_threshold> <wake_window> <motion_window> <wake_score_threshold> <motion_score_threshold> <activation_function>")
+#         exit(1)
 
-    soft_threshold = float(sys.argv[1])
-    hard_threshold = float(sys.argv[2])
-    wake_window = int(sys.argv[3])
-    motion_window = int(sys.argv[4])
-    wake_score_threshold = float(sys.argv[5])
-    motion_score_threshold = float(sys.argv[6])
-    activation_function = sys.argv[7]
+#     soft_threshold = float(sys.argv[1])
+#     hard_threshold = float(sys.argv[2])
+#     wake_window = int(sys.argv[3])
+#     motion_window = int(sys.argv[4])
+#     wake_score_threshold = float(sys.argv[5])
+#     motion_score_threshold = float(sys.argv[6])
+#     activation_function = sys.argv[7]
 
-    # run the main function
-    run_algorithm(soft_threshold, hard_threshold, wake_window, motion_window, wake_score_threshold, motion_score_threshold, activation_function)
+#     # run the main function
+#     run_algorithm(soft_threshold, hard_threshold, wake_window, motion_window, wake_score_threshold, motion_score_threshold, activation_function)
+
+
+run_algorithm(100, 400, 10, 3, 0.5, 0.5, 'linear')
 

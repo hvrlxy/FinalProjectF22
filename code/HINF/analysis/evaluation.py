@@ -138,7 +138,7 @@ def compute_correct_prompting(id, is_dominant_hand = True, window_size = 5):
                 # print("Scenario 3: ", start_time, stop_time, wake_time)
                 correct_prompt += 1
                 break
-
+    # print(f'Correct prompt for {id} is {correct_prompt} out of {total_days}')
     return correct_prompt, total_days
 
 def compute_correct_prompting_rate(ids, is_dominant_hand = True, window_size = 5):
@@ -158,20 +158,20 @@ def compute_correct_prompting_rate(ids, is_dominant_hand = True, window_size = 5
 # print("Compute metrics for subject 10 to 19, non dominant hand")
 # print(compute_vanilla_metrics_for_subjects(ids=[i for i in range(10, 20)], is_dominant_hand=False))
 
-print("Print correct prompting rate for subject 10 to 19, dominant hand, window size 10 minutes")
-print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=True, window_size=10))
+# print("Print correct prompting rate for subject 10 to 19, dominant hand, window size 10 minutes")
+# print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=True, window_size=10))
 
-print("Print correct prompting rate for subject 10 to 19, non dominant hand, window size 10 minutes")
-print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=False, window_size=10))
+# print("Print correct prompting rate for subject 10 to 19, non dominant hand, window size 10 minutes")
+# print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=False, window_size=10))
 
-print("Print correct prompting rate for subject 10 to 19, dominant hand, window size 3 minutes")
-print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=True, window_size=3))
+# print("Print correct prompting rate for subject 10 to 19, dominant hand, window size 3 minutes")
+# print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=True, window_size=3))
 
-print("Print correct prompting rate for subject 10 to 19, non dominant hand, window size 3 minutes")
-print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=False, window_size=3))
+# print("Print correct prompting rate for subject 10 to 19, non dominant hand, window size 3 minutes")
+# print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=False, window_size=3))
 
-print("Print correct prompting rate for subject 10 to 19, dominant hand, window size 1 minutes")
-print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=True, window_size=1))
+# print("Print correct prompting rate for subject 10 to 19, dominant hand, window size 1 minutes")
+# print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=True, window_size=1))
 
-print("Print correct prompting rate for subject 10 to 19, non dominant hand, window size 1 minutes")
-print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=False, window_size=1))
+# print("Print correct prompting rate for subject 10 to 19, non dominant hand, window size 1 minutes")
+# print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=False, window_size=1))
