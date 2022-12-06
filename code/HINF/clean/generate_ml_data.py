@@ -2,97 +2,61 @@ import pandas as pd
 import numpy as np
 import datetime as dt
 import os, sys
+import warnings
+warnings.filterwarnings("ignore")
 
-ROOT_DIR = os.path.dirname(os.path.abspath(__file__)) + "/../../.."
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__)) + "/../../../"
 
-def generate_ml_label(night_df, start_wake_time, stop_wake_time):
-    # turn the start_wake_time and stop_wake_time to datetime
-    start_wake_time = dt.datetime.strptime(start_wake_time, '%Y-%m-%d %H:%M:%S')
-    stop_wake_time = dt.datetime.strptime(stop_wake_time, '%Y-%m-%d %H:%M:%S')
-    
-    # create a new column called DATETIME in night_df and convert the timestamp to datetime
-    night_df['DATETIME'] = night_df['timestamp'].apply(lambda x: dt.datetime.fromtimestamp(x))
-    #convert to EDT timezone
-    night_df['DATETIME'] = night_df['DATETIME'].apply(lambda x: x)
-    
-    # create a new column called label_wake and set it to 1
-    night_df['label_wake'] = 1
-    
-    # for each DATETIME in night_df, if it is between the start_wake_time and stop_wake_time, set the label_wake to 0
-    night_df['label_wake'] = night_df['DATETIME'].apply(lambda x: 0 if x >= start_wake_time and x <= stop_wake_time else 1)
-    return night_df
+def get_actigraphy_features(subject: int):
+    # get the csv files with the features for the subject
+    actigraphy_features = pd.read_csv(ROOT_DIR + f"data/PAAWS/actigraphy_features/DS_{subject}_actigraphy_features_dominant.csv")
+    # get the wake labels for the subject
+    wake_labels = pd.read_csv(ROOT_DIR + f"data/PAAWS/HINF_results/wake_labels/DS_{subject}.csv")
 
-def generate_trainable_data(labeled_df, user_id, is_dominant_hand):
-    # create a datafrae to store the trainable data
-    trained_df = pd.DataFrame(columns=['timestamp','user_id', 'is_dominant_hand', 't1', 't2', 't3', 't4', 't5', 't6', 't7', 't8', 't9', 't10', 'is_awake'])
+    # append datetime column to the actigraphy features
+    actigraphy_features['datetime'] = actigraphy_features['timestamp'].apply(lambda x: dt.datetime.fromtimestamp(x))
+    actigraphy_features['timestamp'] = actigraphy_features['timestamp'].astype(int)
+    # initalize the final dataframe
+    final_df = pd.DataFrame()
 
-    # for each 10 rows in labeled_df, create a new row in trained_df
-    for i in range(0, len(labeled_df), 10):
-        # get the timestamp of the 10th row
-        timestamp = labeled_df.iloc[i+9]['timestamp']
-        # user id
-        user_id = user_id
-        is_dominant_hand = is_dominant_hand
-        # get the 10 AUC_sum values
-        AUCs = labeled_df.iloc[i:i+10]['AUC_sum']
+    # for each row in the wake labels, get the start time and stop time
+    for index, row in wake_labels.iterrows():
+        start_time_sleep = row['START_TIME_DATETIME']
+        stop_time_sleep = row['STOP_TIME_DATETIME']
+        # grab the data between 2 hours before the start time and 2 hours after the stop time
+        start_time = dt.datetime.strptime(start_time_sleep, '%Y-%m-%d %H:%M:%S') - dt.timedelta(hours=2)
+        stop_time = dt.datetime.strptime(stop_time_sleep, '%Y-%m-%d %H:%M:%S') + dt.timedelta(hours=2)
+        # convert the start time and stop time to epoch time in seconds
+        start_time = int(start_time.timestamp())
+        stop_time = int(stop_time.timestamp())
+        # print(start_time_sleep, stop_time_sleep, start_time, stop_time)
         
-        # get the label_wake of the 10th row
-        is_awake = labeled_df.iloc[i+9]['label_wake']
-        #create a new row in trained_df
-        trained_df.loc[len(trained_df)] = [timestamp, user_id, is_dominant_hand] + AUCs.tolist() + [is_awake]
-        
-    return trained_df
-# for each subject
-for subject in range(10, 33):
-    print("Processing subject {}".format(subject))
-    try:
-        # get the wake labels
-        wake_label_path = ROOT_DIR + f'/data/PAAWS/HINF_results/wake_labels/DS_{subject}.csv'
-        df_wake_labels = pd.read_csv(wake_label_path)
-        # get the unique dates in the wake labels
-        dates = df_wake_labels['DATE'].unique()
-        # for each hand (dominant and non-dominant), create a folder for the hand
-        for hand in ["dominant_hand", "non_dominant_hand"]:
-            # get the data for each night
-            # grab the list of files from the folder
-            files = os.listdir(ROOT_DIR + f"/data/PAAWS/HINF_results/AUC_by_night/DS_{subject}/{hand}/")
-            # for each file
-            for file in files:
-                if len(file.split("_")) < 3:
-                    continue
-                night = file.split("_")[2]
-                night = night.replace(".csv", "")
-                
-                if night in dates:
-                    # generate the labels for this night
-                    #read the file as pandas dataframe
-                    night_df = pd.read_csv(ROOT_DIR + f"/data/PAAWS/HINF_results/AUC_by_night/DS_{subject}/{hand}/{file}")
-                    #get the start time and stop time of the wake label
-                    start_time = df_wake_labels[df_wake_labels['DATE'] == night]['START_TIME_DATETIME'].values[0]
-                    stop_time = df_wake_labels[df_wake_labels['DATE'] == night]['STOP_TIME_DATETIME'].values[0]
-                    labeled_night_df = generate_ml_label(night_df, start_time, stop_time)
-                    
-                    # search for the folder of this subject and hand
-                    if not os.path.exists(ROOT_DIR + f"/data/PAAWS/HINF_results/labeled_AUC/DS_{subject}/{hand}/"):
-                        os.makedirs(ROOT_DIR + f"/data/PAAWS/HINF_results/labeled_AUC/DS_{subject}/{hand}/")
-                        
-                    # save the file
-                    labeled_night_df.to_csv(ROOT_DIR + f"/data/PAAWS/HINF_results/labeled_AUC/DS_{subject}/{hand}/{night}.csv", index=False)
-                    trained_df = generate_trainable_data(labeled_night_df, subject, 1 if hand == "dominant_hand" else 0)
-                    
-                    # see if the csv file inside the ML_value folder exists
-                    try:
-                        # read from the csv file
-                        current_df = pd.read_csv(ROOT_DIR + f"/data/PAAWS/HINF_results/ML_value/ml.csv")
-                        # append the new data to the current dataframe
-                        current_df = pd.concat([current_df, trained_df])
-                        # save the dataframe to the csv file
-                        current_df.to_csv(ROOT_DIR + f"/data/PAAWS/HINF_results/ML_value/ml.csv", index=False)
-                    except:
-                        # save the dataframe to the csv file
-                        trained_df.to_csv(ROOT_DIR + f"/data/PAAWS/HINF_results/ML_value/ml.csv", index=False)
-        
-    except Exception as e:
-            print(f"Error processing subject {subject}".format(subject))
-            print(e)
-            continue
+        # filter out the actigraphy features and only take the one between the start time and stop time
+        df = actigraphy_features[(actigraphy_features['timestamp'] >= start_time)]
+        df = df[(df['timestamp'] <= stop_time)]
+        # print(start_time_sleep, stop_time_sleep, df['datetime'].to_list()[0], df['datetime'].to_list()[-1])
+        # add the label column
+        # for the time between start_time_sleep and stop_time_sleep, the label is 1
+        # for the time before start_time_sleep and after stop_time_sleep, the label is 0
+        df['is_awake'] = np.where((df['datetime'] >= start_time_sleep) & (df['datetime'] <= stop_time_sleep), 0, 1)
+        # add the subject column
+        df['subject'] = subject
+        # add the data to the final dataframe
+        final_df = pd.concat([final_df, df])
+    return final_df
+
+def generate_ml_data():
+    # initalize the final dataframe
+    final_df = pd.DataFrame()
+    # for each subject, get the actigraphy features
+    for subject in range(10, 33):
+        try:
+            df = get_actigraphy_features(subject)
+            # add the data to the final dataframe
+            final_df = pd.concat([final_df, df])
+        except:
+            print(f"Subject {subject} does not have actigraphy features")
+    # save the final dataframe to a csv file
+    final_df.to_csv(ROOT_DIR + f"data/PAAWS/HINF_results/ML_value/wake_features.csv", index=False)
+
+generate_ml_data()

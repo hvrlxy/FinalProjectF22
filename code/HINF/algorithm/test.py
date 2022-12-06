@@ -5,13 +5,13 @@ import pandas as pd
 import warnings
 warnings.filterwarnings("ignore")
 # set the parameters
-# soft_threshold = 50
-# hard_threshold = 500
-# wake_window = 10
-# motion_window = 3
-# wake_score_threshold = 0.5
-# motion_score_threshold = 0.5
-# activation_function = "linear"
+soft_threshold = 50
+hard_threshold = 500
+wake_window = 10
+motion_window = 3
+wake_score_threshold = 0.5
+motion_score_threshold = 0.5
+activation_function = "linear"
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__)) + "/../../.."
 
@@ -116,5 +116,5 @@ def run_algorithm(soft_threshold, hard_threshold, wake_window, motion_window, wa
 #     run_algorithm(soft_threshold, hard_threshold, wake_window, motion_window, wake_score_threshold, motion_score_threshold, activation_function)
 
 
-run_algorithm(100, 400, 10, 3, 0.5, 0.5, 'linear')
+run_algorithm(50, 500, 10, 3, 0.5, 0.5, 'linear')
 

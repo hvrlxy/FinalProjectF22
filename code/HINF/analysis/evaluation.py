@@ -32,6 +32,7 @@ def get_confusion_matrix_for_subject(id: id, is_dominant_hand = True):
     final_result_df = pd.DataFrame()
     # for each date in the results_dates
     for date in results_dates:
+        print(date)
         # filter out the results_df and only take the one with the date
         df_results = results_df[results_df['date'] == date]
         # get the row in the wake labels with the date
@@ -62,6 +63,7 @@ def get_confusion_matrix_for_subject(id: id, is_dominant_hand = True):
 def compute_vanilla_metrics_for_subjects(ids, is_dominant_hand = True):
     final_df = pd.DataFrame()
     for subject in ids:
+        print(subject)
         try:
             df = get_confusion_matrix_for_subject(subject, is_dominant_hand)
             final_df = final_df.append(df, ignore_index=True)
@@ -152,26 +154,26 @@ def compute_correct_prompting_rate(ids, is_dominant_hand = True, window_size = 5
         except:
             continue
     return total_correct / total_instances
-# print("Compute metrics for subject 10 to 19, dominant hand")
-# print(compute_vanilla_metrics_for_subjects(ids=[i for i in range(10, 20)], is_dominant_hand=True))
+print("Compute metrics for subject 10 to 19, dominant hand")
+print(compute_vanilla_metrics_for_subjects(ids=[i for i in range(10, 20)], is_dominant_hand=True))
 
-# print("Compute metrics for subject 10 to 19, non dominant hand")
-# print(compute_vanilla_metrics_for_subjects(ids=[i for i in range(10, 20)], is_dominant_hand=False))
+print("Compute metrics for subject 10 to 19, non dominant hand")
+print(compute_vanilla_metrics_for_subjects(ids=[i for i in range(10, 20)], is_dominant_hand=False))
 
-# print("Print correct prompting rate for subject 10 to 19, dominant hand, window size 10 minutes")
-# print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=True, window_size=10))
+print("Print correct prompting rate for subject 10 to 19, dominant hand, window size 10 minutes")
+print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=True, window_size=10))
 
-# print("Print correct prompting rate for subject 10 to 19, non dominant hand, window size 10 minutes")
-# print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=False, window_size=10))
+print("Print correct prompting rate for subject 10 to 19, non dominant hand, window size 10 minutes")
+print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=False, window_size=10))
 
-# print("Print correct prompting rate for subject 10 to 19, dominant hand, window size 3 minutes")
-# print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=True, window_size=3))
+print("Print correct prompting rate for subject 10 to 19, dominant hand, window size 3 minutes")
+print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=True, window_size=5))
 
-# print("Print correct prompting rate for subject 10 to 19, non dominant hand, window size 3 minutes")
-# print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=False, window_size=3))
+print("Print correct prompting rate for subject 10 to 19, non dominant hand, window size 3 minutes")
+print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=False, window_size=5))
 
-# print("Print correct prompting rate for subject 10 to 19, dominant hand, window size 1 minutes")
-# print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=True, window_size=1))
+print("Print correct prompting rate for subject 10 to 19, dominant hand, window size 1 minutes")
+print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=True, window_size=3))
 
-# print("Print correct prompting rate for subject 10 to 19, non dominant hand, window size 1 minutes")
-# print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=False, window_size=1))
+print("Print correct prompting rate for subject 10 to 19, non dominant hand, window size 1 minutes")
+print(compute_correct_prompting_rate(ids=[i for i in range(10, 20)], is_dominant_hand=False, window_size=3))
