@@ -210,7 +210,7 @@ def sync_posture_labels(subject_id, is_dominant_hand = True):
         # save the actigraph_df to a csv file
         actigraph_df.to_csv(f"{ROOT_DIR}/data/PAAWS/labeled_actigraph/Posture/DS_{subject_id}_combined_Posture_non_dominant_synced.csv", index=False)
 
-for i in range(21, 33):
+for i in range(11, 33):
     try:
         sync_physical_activity_labels(i, is_dominant_hand = True)
         sync_behavioral_pattern_labels(i, is_dominant_hand = True)

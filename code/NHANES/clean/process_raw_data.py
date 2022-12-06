@@ -51,23 +51,16 @@ def read_raw_accel_data(file_name: int):
     return df
 
 def extract_and_save_features(file_name):
-    full_path = '/Users/hale/Desktop/NEU-CLASS/FinalProjectF22/data/NHANES/raw/raw_sensor_file/' + file_name
+    full_path = '/Users/hale/Desktop/FinalProjectF22-1/data/NHANES/raw/raw_sensor_file/' + file_name
     raw_df = read_raw_accel_data(full_path)
     act_sum = ActigraphSummary(raw_df)
     feature_df = act_sum.segment_and_add_features()
     
     # save the feature_df to a csv file
-    feature_df.to_csv("/Users/hale/Desktop/NEU-CLASS/FinalProjectF22/data/NHANES/features_extracted/" + file_name.replace('.gz', ''), index=False)
+    feature_df.to_csv("/Users/hale/Desktop/FinalProjectF22-1/data/NHANES/features_extracted/" + file_name, index=False)
     
 if __name__ == "__main__":
     # get the arguments from the command line
-    start_ind = int(sys.argv[1])
-    end_ind = int(sys.argv[2])
-    
-    # list all the file in /Users/hale/Desktop/NEU-CLASS/FinalProjectF22/data/NHANES/raw/raw_sensor_file folder
-    file_lst = os.listdir("/Users/hale/Desktop/NEU-CLASS/FinalProjectF22/data/NHANES/raw/raw_sensor_file")
-    # get the first 10 files
-    file_lst = file_lst[start_ind:end_ind]
-    for file in file_lst:
-        print(file)
-        extract_and_save_features(file)
+    user_id = sys.argv[1]
+    file = user_id + '.csv.gz'
+    extract_and_save_features(file)
